@@ -95,14 +95,11 @@
 			margin: 0,
 			items: 1,
 			autoplay: true,
-			navText: [
-				'<i class="ti-angle-left"></i>',
-				'<i class="ti-angle-right"></i>',
-			],
+			navText: ["", ""],
 			nav: true,
-			dots: false,
+			dots: true,
 			autoplayHoverPause: true,
-			autoplaySpeed: 800,
+			autoplaySpeed: 500,
 			responsive: {
 				0: {
 					items: 1,

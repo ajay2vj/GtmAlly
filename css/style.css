@@ -1473,10 +1473,29 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote {
-	padding-top: 0px;
+	background: #ecf4fd;
+	margin-top: 40px;
+	padding-top: 60px;
 	padding-bottom: 100px;
 }
-
+.col_form {
+	display: grid;
+	column-gap: 30px;
+	grid-template-columns: auto auto;
+}
+.contact_form_quote .slider_text h3 {
+	text-align: left;
+	letter-spacing: 0px;
+	color: #111111;
+	opacity: 1;
+	font-size: 40px;
+}
+.contact_form_quote .slider_text p {
+	font-size: 18px;
+	letter-spacing: 0px;
+	color: #303043;
+	opacity: 1;
+}
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote .form_wrap {
 	margin-bottom: 30px;
@@ -1495,6 +1514,12 @@ h3 {
 	.contact_form_quote .form_wrap h3 {
 		font-size: 38px;
 	}
+	.contact_form_quote .form_wrap {
+		padding-top: 40px;
+	}
+	.col_form {
+		display: inline;
+	}
 }
 
 /* line 16, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
@@ -1507,6 +1532,8 @@ h3 {
 	font-size: 15px;
 	margin-bottom: 30px;
 	padding-bottom: 15px;
+	outline: none;
+	background: transparent;
 }
 
 /* line 24, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
@@ -1546,12 +1573,9 @@ h3 {
 
 /* line 2, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area {
-	background-image: url(../img/banner/testmonial.png);
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
 	position: relative;
-	padding: 142px 0 137px 0;
+	padding: 42px 0 37px 0;
+	background-color: #f2f0ff;
 }
 
 @media (max-width: 767px) {
@@ -1559,15 +1583,32 @@ h3 {
 	.testimonial_area {
 		padding: 50px 0;
 	}
+	.testimonial_img img {
+		width: 144px !important;
+		height: 144px !important;
+	}
+	.testimonial_img {
+		margin-top: 0px !important;
+		display: flex;
+		justify-content: center;
+	}
 }
-
+.testimonial_img img {
+	width: 184px;
+	height: 184px;
+}
+.testimonial_img {
+	margin-top: 30px;
+}
 /* line 13, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial p {
-	color: #fff;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 32px;
 	margin: 34px 0;
+	color: #111111;
+	opacity: 1;
+	text-align: left;
 }
 
 @media (min-width: 320px) and (max-width: 1500px) {
@@ -1590,7 +1631,7 @@ h3 {
 
 /* line 34, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author h3 {
-	color: #fff;
+	color: #000;
 	font-size: 15px;
 	font-weight: 500;
 	margin-bottom: 5px;
@@ -1600,7 +1641,7 @@ h3 {
 .testimonial_area .single_testmonial .testmonial_author span {
 	font-size: 13px;
 	font-weight: 400;
-	color: #fff;
+	color: #000;
 }
 
 /* line 47, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
@@ -1845,8 +1886,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 0px;
+	padding-bottom: 50px;
 }
 
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
@@ -2394,8 +2435,8 @@ h3 {
 
 /* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top {
-	padding-top: 145px;
-	padding-bottom: 129px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 	background: #fff;
 }
 
@@ -2926,10 +2967,10 @@ h3 {
 }
 .service_area {
 	padding-top: 50px;
-	padding-bottom: 70px;
+	padding-bottom: 20px;
 }
 .service_area .section_title h3 {
-	padding: 0px 14rem;
+	padding: 0px 10rem;
 }
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
 .service_area.minus_padding {
@@ -4570,7 +4611,6 @@ h6 {
 .blog_area a:hover,
 .blog_area a :hover {
 	background: -webkit-linear-gradient(131deg, #5db2ff 0%, #5db2ff 99%);
-	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-decoration: none;
 	-webkit-transition: 0.5s;
@@ -4634,7 +4674,6 @@ h6 {
 .single-blog .tag {
 	text-align: left;
 	display: inline-block;
-	float: left;
 	font-size: 13px;
 	font-weight: 300;
 	margin-right: 22px;
