@@ -2671,11 +2671,22 @@ h3 {
 	font-family: "Poppins";
 	font-weight: normal;
 }
-
+.mobile_accordion {
+	display: none !important;
+}
+.mobile_widget {
+	display: block !important;
+}
 @media (max-width: 767px) {
 	/* line 150, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 	.footer .copy-right_text .copy_right {
 		font-size: 13px;
+	}
+	.mobile_accordion {
+		display: block !important;
+	}
+	.mobile_widget {
+		display: none !important;
 	}
 }
 
