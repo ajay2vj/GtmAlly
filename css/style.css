@@ -1929,6 +1929,9 @@ h3 {
 		margin-bottom: 50px;
 		margin-top: 20px;
 	}
+	.service_area .single_service {
+		margin-bottom: -25px !important;
+	}
 	.logo img {
 		width: 109px;
 		position: absolute !important;
