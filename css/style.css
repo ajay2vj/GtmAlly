@@ -2506,7 +2506,7 @@ h3 {
 @media (max-width: 767px) {
 	/* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 	.footer .footer_top {
-		padding-top: 60px;
+		padding-top: 26px;
 		padding-bottom: 30px;
 	}
 }
@@ -2515,6 +2515,9 @@ h3 {
 	/* line 14, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 	.footer .footer_top .footer_widget {
 		margin-bottom: 30px;
+	}
+	.footer .footer_top .footer_widget p {
+		display: none !important;
 	}
 }
 
