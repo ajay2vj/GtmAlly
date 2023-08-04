@@ -1614,6 +1614,11 @@ h3 {
 		display: flex;
 		justify-content: center;
 	}
+	.contact_form_quote .form_wrap form button {
+		text-align: center;
+		padding: 13px 40px;
+		width: -webkit-fill-available;
+	}
 }
 .testimonial_img img {
 	width: 184px;
