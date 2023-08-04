@@ -278,7 +278,55 @@
 			activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 		});
 
-		// blog-page
+		// active class for card
+		$(".btn_toggle_2").on("click", function () {
+			if ($(this).attr("aria-expanded") === "true") {
+				$(".card_2").removeClass("active");
+			}
+			if ($(this).attr("aria-expanded") === "false") {
+				$(".card_2").addClass("active");
+			}
+		});
+		$(".btn_toggle_3").on("click", function () {
+			if ($(this).attr("aria-expanded") === "true") {
+				$(".card_3").removeClass("active");
+			}
+			if ($(this).attr("aria-expanded") === "false") {
+				$(".card_3").addClass("active");
+			}
+		});
+		$(".btn_toggle_4").on("click", function () {
+			if ($(this).attr("aria-expanded") === "true") {
+				$(".card_4").removeClass("active");
+			}
+			if ($(this).attr("aria-expanded") === "false") {
+				$(".card_4").addClass("active");
+			}
+		});
+		$(".btn_toggle_5").on("click", function () {
+			if ($(this).attr("aria-expanded") === "true") {
+				$(".card_5").removeClass("active");
+			}
+			if ($(this).attr("aria-expanded") === "false") {
+				$(".card_5").addClass("active");
+			}
+		});
+		$(".btn_toggle_6").on("click", function () {
+			if ($(this).attr("aria-expanded") === "true") {
+				$(".card_6").removeClass("active");
+			}
+			if ($(this).attr("aria-expanded") === "false") {
+				$(".card_6").addClass("active");
+			}
+		});
+		$(".btn_toggle_1").on("click", function () {
+			if ($(this).attr("aria-expanded") === "true") {
+				$(".card_1").removeClass("active");
+			}
+			if ($(this).attr("aria-expanded") === "false") {
+				$(".card_1").addClass("active");
+			}
+		});
 
 		//brand-active
 		$(".brand-active").owlCarousel({
