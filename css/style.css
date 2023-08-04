@@ -899,7 +899,10 @@ h3 {
 @media (max-width: 767px) {
 	/* line 254, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 	.header-area .main-header-area.sticky {
-		padding: 10px 10px;
+		padding: 0px 0px;
+	}
+	.header-area .main-header-area {
+		padding: 0px 0px !important;
 	}
 }
 
@@ -1769,7 +1772,7 @@ h3 {
 	margin-bottom: 15px;
 	border-radius: 0;
 	border-radius: 0 !important;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 /* line 16, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
@@ -1782,6 +1785,9 @@ h3 {
 	/* line 16, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 	#accordion .card .card-header {
 		padding: 4px 0;
+	}
+	.accordion_area .accordion_thumb img {
+		height: auto !important;
 	}
 }
 
@@ -1817,9 +1823,11 @@ h3 {
 	right: 12px;
 	height: auto;
 	font-family: "themify";
-	color: #0f2137;
+	color: #000;
 	font-size: 14px;
 	left: -24px;
+	display: flex;
+	justify-content: end;
 }
 
 @media (max-width: 767px) {
@@ -1832,8 +1840,10 @@ h3 {
 /* line 81, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 #accordion h5 button.btn.btn-link.collapsed:after {
 	content: "\e64b";
-	color: #0f2137;
+	color: #000;
 	font-size: 14px;
+	display: flex;
+	justify-content: end;
 }
 
 /* line 88, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
@@ -1901,6 +1911,7 @@ h3 {
 /* line 7, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .accordion_thumb img {
 	width: 100%;
+	height: 450px;
 }
 
 /* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
@@ -1918,6 +1929,12 @@ h3 {
 		margin-bottom: 50px;
 		margin-top: 20px;
 	}
+	.logo img {
+		width: 109px;
+		position: absolute !important;
+		z-index: 11 !important;
+		padding: 21px 0px !important;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1926,6 +1943,16 @@ h3 {
 		font-size: 38px;
 		margin-bottom: 50px;
 		margin-top: 20px;
+	}
+	.logo img {
+		position: absolute !important;
+		z-index: 11 !important;
+		padding: 7px 0px !important;
+	}
+	.testimonial_img {
+		margin-top: 0px !important;
+		display: flex;
+		justify-content: center;
 	}
 }
 
@@ -1941,11 +1968,10 @@ h3 {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff;
+	background-color: #fff5ed;
 	background-clip: border-box;
 	border: none;
 	border-radius: 0.25rem;
-	border-bottom: 1px solid #e8e8e8;
 }
 
 /* line 46, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
@@ -1958,10 +1984,21 @@ h3 {
 /* line 51, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask #accordion button {
 	font-size: 15px;
-	color: #001d38 !important;
+	color: #000 !important;
 	font-weight: 300 !important;
 }
-
+.card.card_1.active,
+.card.card_2.active,
+.card.card_3.active,
+.card.card_4.active,
+.card.card_5.active,
+.card.card_6.active {
+	border: 2px solid #ff6b00 !important;
+	border-radius: 4px !important;
+	opacity: 1 !important;
+	background: #fff5ed !important;
+	transition: 0.2s;
+}
 @media (max-width: 767px) {
 	/* line 55, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 	.accordion_area .faq_ask #accordion button span {
@@ -1971,15 +2008,15 @@ h3 {
 
 /* line 61, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask #accordion .card .card-header {
-	background-color: transparent;
-	padding: 4px 30px;
+	background-color: #fff5ed;
+	padding: 11px 4px;
 }
 
 /* line 75, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask #accordion .card .card-body {
 	font-size: 15px;
 	line-height: 28px;
-	color: #727272;
+	color: #000 !important;
 	padding: 10px 30px 32px;
 	font-weight: 400;
 	line-height: 28px;
