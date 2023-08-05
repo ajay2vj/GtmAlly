@@ -68,7 +68,6 @@ h3,
 h4,
 h5 {
 	font-family: "Poppins", sans-serif;
-	color: #1f1f1f;
 }
 
 /* line 45, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
@@ -121,7 +120,7 @@ label {
 
 /* line 86, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 ::selection {
-	background: #444;
+	background: #0662e2;
 	color: #fff;
 	text-shadow: none;
 }
@@ -478,6 +477,11 @@ h3 {
 	}
 	.slick-slider {
 		margin-top: 36px !important;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	.slide {
+		margin: 0 53px !important;
 	}
 	.service_area .section_title h3 {
 		padding: 0px 0px !important;
@@ -582,7 +586,6 @@ h3 {
 	top: 0;
 	z-index: 9;
 	position: absolute;
-	border-bottom: 1px solid #ccc4c4;
 }
 .mobile_request {
 	display: none !important;
@@ -603,6 +606,7 @@ h3 {
 		width: -webkit-fill-available;
 		text-transform: inherit !important;
 		text-align: center !important;
+		width: auto !important;
 	}
 }
 
@@ -722,13 +726,17 @@ h3 {
 
 /* line 113, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
-	padding: 13px 26px;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	border: 1px solid #000000;
 	border-radius: 4px;
 	color: #000000;
 	opacity: 1;
+	width: 184px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -753,13 +761,13 @@ h3 {
 .header-area .main-header-area .main-menu ul li {
 	display: inline-block;
 	position: relative;
-	margin: 0 10px;
+	margin: 0 13px;
 }
 
 /* line 156, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
 	color: #111111;
-	font-size: 15px;
+	font-size: 16px;
 	text-transform: capitalize;
 	font-weight: 500;
 	display: inline-block;
@@ -772,14 +780,14 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
 	/* line 156, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 	.header-area .main-header-area .main-menu ul li a {
-		font-size: 15px;
+		font-size: 16px;
 	}
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
 	/* line 156, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 	.header-area .main-header-area .main-menu ul li a {
-		font-size: 15px;
+		font-size: 16px;
 	}
 }
 
@@ -799,6 +807,10 @@ h3 {
 	/* line 175, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 	.header-area .main-header-area .main-menu ul li a i {
 		display: none !important;
+	}
+	.slick-slider {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
 	}
 }
 
@@ -825,28 +837,24 @@ h3 {
 	transform: scaleX(1);
 }
 
-/* line 201, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li a.active::before {
-	opacity: 1;
-	transform: scaleX(1);
-}
-
 /* line 210, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu {
 	position: absolute;
 	left: 0;
 	top: 160%;
 	background: #fff;
-	width: 250px;
+	width: 350px;
 	z-index: 2;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
 	opacity: 0;
+	box-shadow: 0px 8px 24px #00000014;
+	border-radius: 8px;
 	visibility: hidden;
 	text-align: left;
 	-webkit-transition: 0.6s;
 	-moz-transition: 0.6s;
 	-o-transition: 0.6s;
 	transition: 0.6s;
+	padding: 40px 0px 0px 40px;
 }
 
 /* line 222, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -856,7 +864,6 @@ h3 {
 
 /* line 224, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li a {
-	padding: 10px 15px;
 	position: inherit;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
@@ -864,6 +871,11 @@ h3 {
 	transition: 0.3s;
 	display: block;
 	color: #000;
+	font: normal normal normal 16px Poppins !important;
+	margin: 0px 0px 28px 0px;
+}
+.header-area .main-header-area .main-menu ul li .submenu li a:hover {
+	color: #ff6b00 !important;
 }
 
 /* line 230, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -880,7 +892,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li:hover > .submenu {
 	opacity: 1;
 	visibility: visible;
-	top: 150%;
+	top: 183%;
 }
 
 /* line 244, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -1053,7 +1065,7 @@ h3 {
 }
 .banner_area .single_slider .slider_text,
 .banner_image {
-	margin-top: 100px;
+	margin-top: 89px;
 }
 .banner_image img {
 	width: 100%;
@@ -1491,7 +1503,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote {
-	background: #ecf4fd;
+	background: #fff8f2;
 	margin-top: 40px;
 	padding-top: 60px;
 	padding-bottom: 100px;
@@ -1503,16 +1515,17 @@ h3 {
 }
 .contact_form_quote .slider_text h3 {
 	text-align: left;
+	font: normal normal 600 40px/54px Poppins;
 	letter-spacing: 0px;
 	color: #111111;
 	opacity: 1;
-	font-size: 40px;
 }
 .contact_form_quote .slider_text p {
-	font-size: 18px;
-	letter-spacing: 0px;
 	color: #303043;
-	opacity: 1;
+	font-size: 18px;
+	font-variant: normal;
+	font-weight: 300;
+	font-style: normal;
 }
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote .form_wrap {
@@ -1599,6 +1612,12 @@ h3 {
 	padding: 42px 0 37px 0;
 	background-color: #f2f0ff;
 }
+.test_area {
+	padding: 0px 0px;
+}
+.partners_area h3 {
+	font: normal normal normal 24px/36px Poppins;
+}
 
 @media (max-width: 767px) {
 	/* line 2, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
@@ -1619,23 +1638,25 @@ h3 {
 		padding: 13px 40px;
 		width: -webkit-fill-available;
 	}
+	.testimonial_area .single_testmonial p {
+		font: normal normal normal 14px/24px Poppins !important;
+	}
 }
 .testimonial_img img {
-	width: 184px;
-	height: 184px;
+	width: 170px;
+	height: 170px;
 }
 .testimonial_img {
-	margin-top: 30px;
+	margin-top: 62px;
 }
 /* line 13, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial p {
-	font-weight: 400;
-	font-size: 18px;
 	line-height: 32px;
 	margin: 34px 0;
 	color: #111111;
 	opacity: 1;
 	text-align: left;
+	font: normal normal normal 18px/30px Poppins;
 }
 
 @media (min-width: 320px) and (max-width: 1500px) {
@@ -1662,6 +1683,7 @@ h3 {
 	font-size: 15px;
 	font-weight: 500;
 	margin-bottom: 5px;
+	text-align: left;
 }
 
 /* line 40, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
@@ -1840,33 +1862,40 @@ h3 {
 
 /* line 65, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 #accordion h5 button.btn.btn-link:after {
+	content: "";
 	position: absolute;
-	content: "\e648";
-	top: 9px;
-	right: 12px;
-	height: auto;
-	font-family: "themify";
-	color: #000;
-	font-size: 14px;
-	left: -24px;
+	right: 0;
+	top: 23px;
+	background-repeat: no-repeat;
+	background-image: url("../img/icons/accordion_up.svg");
 	display: flex;
 	justify-content: end;
+	left: 94%;
+	bottom: 0;
 }
 
 @media (max-width: 767px) {
 	/* line 65, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 	#accordion h5 button.btn.btn-link:after {
-		right: 10px;
+		left: 90% !important;
+	}
+	#accordion h5 button.btn.btn-link.collapsed:after {
+		left: 90% !important;
 	}
 }
 
 /* line 81, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 #accordion h5 button.btn.btn-link.collapsed:after {
-	content: "\e64b";
-	color: #000;
-	font-size: 14px;
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 23px;
+	background-repeat: no-repeat;
+	background-image: url("../img/icons/accordion_down.svg");
 	display: flex;
 	justify-content: end;
+	left: 94%;
+	bottom: 0;
 }
 
 /* line 88, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
@@ -1953,6 +1982,7 @@ h3 {
 		margin-top: 20px;
 	}
 	.service_area .single_service {
+		padding: 20px 15px !important;
 		margin-bottom: -25px !important;
 	}
 	.logo img {
@@ -1994,7 +2024,7 @@ h3 {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff5ed;
+	background-color: #f5f9fd;
 	background-clip: border-box;
 	border: none;
 	border-radius: 0.25rem;
@@ -2009,9 +2039,10 @@ h3 {
 
 /* line 51, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask #accordion button {
-	font-size: 15px;
-	color: #000 !important;
-	font-weight: 300 !important;
+	text-align: left;
+	font: normal normal 600 20px/54px Poppins;
+	letter-spacing: 0px;
+	color: #666666;
 }
 .card.card_1.active,
 .card.card_2.active,
@@ -2019,11 +2050,19 @@ h3 {
 .card.card_4.active,
 .card.card_5.active,
 .card.card_6.active {
-	border: 2px solid #ff6b00 !important;
+	border: 1px solid #c5e1fd !important;
 	border-radius: 4px !important;
 	opacity: 1 !important;
-	background: #fff5ed !important;
+	background: #f5f9fd !important;
 	transition: 0.2s;
+}
+.card.card_1.active h5 button,
+.card.card_2.active h5 button,
+.card.card_3.active h5 button,
+.card.card_4.active h5 button,
+.card.card_5.active h5 button,
+.card.card_6.active h5 button {
+	color: #111111 !important;
 }
 @media (max-width: 767px) {
 	/* line 55, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
@@ -2034,18 +2073,16 @@ h3 {
 
 /* line 61, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask #accordion .card .card-header {
-	background-color: #fff5ed;
-	padding: 11px 4px;
+	background-color: #f5f9fd;
+	padding: 0px;
 }
 
 /* line 75, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask #accordion .card .card-body {
-	font-size: 15px;
-	line-height: 28px;
-	color: #000 !important;
+	letter-spacing: 0px;
+	color: #303043 !important;
 	padding: 10px 30px 32px;
-	font-weight: 400;
-	line-height: 28px;
+	font: normal normal normal 16px/24px Poppins;
 }
 
 /* line 85, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
@@ -2525,6 +2562,22 @@ h3 {
 	/* line 14, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 	.footer .footer_top .footer_widget {
 		margin-bottom: 30px;
+	}
+	.header-area {
+		position: initial !important;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1198px) {
+	/* line 14, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
+	.header-area {
+		position: initial !important;
+	}
+	.banner_area .single_slider {
+		height: auto !important;
+	}
+	.header-area .main-header-area .main-menu ul li {
+		margin: 0 0px !important;
 	}
 }
 
@@ -3035,7 +3088,7 @@ h3 {
 	/* line 3, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_tesmonial.scss */
 }
 .partners_area {
-	padding-top: 100px;
+	padding-top: 65px;
 	padding-bottom: 70px;
 }
 .partner_heading_text h3 {
@@ -5937,6 +5990,8 @@ h6 {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	margin-left: 113px;
+	margin-right: 113px;
 	-webkit-touch-callout: none;
 	-khtml-user-select: none;
 	-ms-touch-action: pan-y;
@@ -6004,6 +6059,7 @@ h6 {
 
 .slick-slide img {
 	display: block;
+	opacity: 0.5;
 }
 
 .slick-slide.slick-loading img {
@@ -6031,7 +6087,7 @@ h6 {
 
 .slide {
 	transition: filter 0.4s;
-	margin: 0px 40px;
+	margin: 0px 0px;
 }
 
 .fas {
