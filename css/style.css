@@ -1545,10 +1545,17 @@ h3 {
 		font-size: 38px;
 	}
 	.contact_form_quote .form_wrap {
-		padding-top: 40px;
+		padding-top: 20px;
 	}
 	.col_form {
 		display: inline;
+	}
+	.form_wrap p {
+		text-align: left;
+		font: normal normal normal 12px/20px Poppins !important;
+		letter-spacing: 0px;
+		opacity: 1;
+		padding-right: 8rem;
 	}
 }
 
@@ -1640,9 +1647,18 @@ h3 {
 		text-align: center;
 		padding: 13px 40px;
 		width: -webkit-fill-available;
+		margin-top: 10px !important;
 	}
 	.testimonial_area .single_testmonial p {
 		font: normal normal normal 14px/24px Poppins !important;
+	}
+	.contact_form_quote .form_wrap form input,
+	.contact_form_quote .form_wrap form textarea {
+		margin-bottom: 30px;
+	}
+	.contact_form_quote {
+		padding-top: 20px;
+		padding-bottom: 0px;
 	}
 }
 .testimonial_img img {
@@ -1812,7 +1828,21 @@ h3 {
 @media (max-width: 767px) {
 	/* line 2, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 	#accordion button {
-		font-size: 14px;
+		font-size: 14px !important;
+	}
+	#accordion .card .card-body {
+		font: normal normal normal 14px/24px Poppins !important;
+		padding: 0px 38px 10px 12px !important;
+	}
+	.contact_form_quote .slider_text h3 {
+		font: normal normal 600 30px/44px Poppins;
+	}
+	.contact_form_quote .slider_text p {
+		text-align: left;
+		font: normal normal normal 14px/24px Poppins;
+		letter-spacing: 0px;
+		color: #303043;
+		opacity: 1;
 	}
 }
 
@@ -1881,9 +1911,21 @@ h3 {
 	/* line 65, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 	#accordion h5 button.btn.btn-link:after {
 		left: 90% !important;
+		background-image: url("../img/icons/mobile-arrow-up.svg") !important;
 	}
 	#accordion h5 button.btn.btn-link.collapsed:after {
 		left: 90% !important;
+		background-image: url("../img/icons/mobile-arrow-down.svg") !important;
+	}
+	.mobile_accordion h5 button.btn.btn-link:after {
+		left: 90% !important;
+		top: 8px !important;
+		background-image: url("../img/icons/mobile-arrow-up.svg") !important;
+	}
+	.mobile_accordion h5 button.btn.btn-link.collapsed:after {
+		left: 90% !important;
+		top: 8px !important;
+		background-image: url("../img/icons/mobile-arrow-down.svg") !important;
 	}
 }
 
@@ -2535,7 +2577,9 @@ h3 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+.footer .footer_top .footer_widget p {
+	margin: 0px 1px 0px 0px;
+}
 /* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top {
 	padding-top: 50px;
@@ -2586,8 +2630,8 @@ h3 {
 
 /* line 21, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_title {
-	font-size: 18px;
-	font-weight: 500;
+	font-size: 16px;
+	font-weight: bold;
 	color: #001d38;
 	text-transform: capitalize;
 }
@@ -2613,12 +2657,15 @@ h3 {
 	.footer .footer_top .footer_widget .footer_logo {
 		margin-bottom: 20px;
 	}
+	.footer .footer_top .footer_widget ul li a {
+		font-size: 14px !important;
+	}
 }
 
 /* line 41, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
 	color: #000;
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 28px;
 }
@@ -2656,6 +2703,7 @@ h3 {
 .footer .footer_top .footer_widget ul li a {
 	color: #000;
 	font-weight: 400;
+	font-size: 16px;
 }
 
 /* line 93, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
