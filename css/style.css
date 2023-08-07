@@ -276,15 +276,13 @@ h3 {
 }
 
 /* line 254, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
-.owl-carousel .owl-nav div.owl-next i {
-	position: relative;
-	right: 0;
+.owl-next img {
+	cursor: pointer;
 }
 
 /* line 261, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
-.owl-carousel .owl-nav div.owl-prev i {
-	position: relative;
-	top: 0px;
+.owl-prev img {
+	cursor: pointer;
 }
 
 /* line 271, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
@@ -1619,8 +1617,37 @@ h3 {
 /* line 2, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area {
 	position: relative;
-	padding: 42px 0 37px 0;
-	background-color: #f2f0ff;
+}
+.owl-dots {
+	text-align: center;
+	position: relative;
+	top: -16px;
+}
+.owl-dot {
+	border-radius: 50px;
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	background: #8b909c;
+	margin: 0px 5px;
+}
+.owl-dot.active {
+	background: #000000 0% 0% no-repeat padding-box;
+	border-radius: 100px;
+	opacity: 1;
+	width: 24px;
+	height: 12px;
+}
+.owl-controls {
+	position: absolute;
+	top: 94%;
+	left: 50%;
+	z-index: 6;
+	transform: translate(-50%, -50%);
+}
+div#customNav {
+	display: flex;
+	gap: 100px;
 }
 .test_area {
 	padding: 0px 0px;
@@ -1628,9 +1655,12 @@ h3 {
 .partners_area h3 {
 	font: normal normal normal 24px/36px Poppins;
 }
-
+.single_carousel {
+	background: #f2f0ff;
+	margin: 35px 0px;
+	padding: 15px 0px 35px 0px;
+}
 @media (max-width: 767px) {
-	/* line 2, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 	.testimonial_area {
 		padding: 50px 0;
 	}
@@ -2036,10 +2066,40 @@ h3 {
 		z-index: 11 !important;
 		padding: 21px 0px !important;
 	}
+	.owl-controls {
+		position: absolute;
+		top: 89.7%;
+		left: 50%;
+		z-index: 6;
+		transform: translate(-50%, -50%);
+	}
+	div#customNav .owl-prev img {
+		width: 11px !important;
+	}
+	div#customNav .owl-next img {
+		width: 11px !important;
+	}
+	.owl-dot.active {
+		width: 12px;
+		height: 6px;
+	}
+	.owl-dot {
+		width: 6px;
+		height: 6px;
+	}
+	div#customNav {
+		gap: 65px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	/* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
+	.owl-controls {
+		position: absolute;
+		top: 95.9%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 6;
+	}
 	.accordion_area .faq_ask h3 {
 		font-size: 38px;
 		margin-bottom: 50px;
