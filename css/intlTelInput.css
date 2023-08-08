@@ -1,6 +1,7 @@
 .iti {
 	position: relative;
-	display: inline-block;
+	margin-bottom: 40px;
+	/* display: inline-block; */
 }
 .iti * {
 	box-sizing: border-box;

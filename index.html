@@ -610,14 +610,30 @@
 					</div>
 					<div class="col-xl-6 col-lg-6">
 						<div class="form_wrap">
-							<form action="#">
+							<form action="#" method="post" id="myform">
 								<div class="col_form">
-									<input type="fname" placeholder="First Name*" />
-									<input type="lname" placeholder="Last Name*" />
-									<input type="text" placeholder="Work Email*" />
-									<input type="text" id="mobile_code" name="name" />
+									<div>
+										<input
+											type="fname"
+											name="fname"
+											placeholder="First Name*"
+										/>
+										<input
+											type="text"
+											name="wemail"
+											placeholder="Work Email*"
+										/>
+									</div>
+									<div>
+										<input type="lname" name="lname" placeholder="Last Name*" />
+										<input type="text" id="mobile_code" name="mobile_code" />
+									</div>
 								</div>
-								<input type="lname" placeholder="Size of Sales Team*" />
+								<input
+									type="sales_team"
+									name="sales_team"
+									placeholder="Size of Sales Team*"
+								/>
 								<p>
 									By submitting you agree to our <span>Term of Use</span> &
 									<span>Privacy Policy</span>

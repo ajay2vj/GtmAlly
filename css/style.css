@@ -1517,6 +1517,17 @@ h3 {
 	padding-top: 60px;
 	padding-bottom: 40px;
 }
+label.error {
+	position: relative;
+	top: -33px;
+	margin-bottom: 0px;
+	color: #c71212;
+}
+.iti.iti--allow-dropdown.iti--separate-dial-code label.error {
+	position: relative;
+	top: 7px !important;
+	color: #c71212;
+}
 .col_form {
 	display: grid;
 	column-gap: 30px;
@@ -6133,8 +6144,6 @@ h6 {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	margin-left: 113px;
-	margin-right: 113px;
 	-webkit-touch-callout: none;
 	-khtml-user-select: none;
 	-ms-touch-action: pan-y;

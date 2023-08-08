@@ -228,7 +228,25 @@
 			var filterValue = $(this).attr("data-filter");
 			$grid.isotope({ filter: filterValue });
 		});
-
+		$("#myform").validate({
+			rules: {
+				fname: {
+					required: true,
+				},
+				lname: {
+					required: true,
+				},
+				wemail: {
+					required: true,
+				},
+				mobile_code: {
+					required: true,
+				},
+				sales_team: {
+					required: true,
+				},
+			},
+		});
 		//for menu active class
 		$(".portfolio-menu button").on("click", function (event) {
 			$(this).siblings(".active").removeClass("active");
