@@ -89,6 +89,12 @@
 				},
 			],
 		});
+		var mobile_code = document.querySelector("#mobile_code");
+		window.intlTelInput(mobile_code, {
+			initialCountry: "in",
+			separateDialCode: true,
+			showFlags: true,
+		});
 		// review-active
 		$(".testmonial_active").owlCarousel({
 			loop: true,
@@ -332,6 +338,7 @@
 				$(".card_1").addClass("active");
 			}
 		});
+		$(".btn_toggle_1").attr("aria-expanded", "true");
 
 		//brand-active
 		$(".brand-active").owlCarousel({

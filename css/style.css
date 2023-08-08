@@ -357,6 +357,14 @@ h3 {
 	color: #000000;
 	opacity: 1;
 }
+.boxed-btn4:hover {
+	background: #ff6b00;
+	border: 1px solid #ff6b00;
+	color: #fff;
+}
+.boxed-btn3:hover {
+	background-color: #e25204;
+}
 .boxed-btn3 {
 	background: #ff6b00 0% 0% no-repeat padding-box;
 	border-radius: 4px;
@@ -746,7 +754,9 @@ h3 {
 
 /* line 130, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a:hover {
-	color: #000;
+	background-color: #ff6b00;
+	color: #fff;
+	border: 1px solid #ff6b00;
 }
 
 /* line 142, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
@@ -1088,8 +1098,9 @@ h3 {
 		margin-top: 0px;
 	}
 	.banner_area .single_slider .slider_text h3 {
-		font-size: 30px;
-		line-height: 45px;
+		font: normal normal 600 36px/48px Poppins !important;
+		letter-spacing: 0px;
+		color: #111111;
 	}
 }
 
@@ -1116,9 +1127,9 @@ h3 {
 	opacity: 0.7;
 }
 .banner_area .single_slider .slider_text p.slider_text_para {
-	font-size: 16px;
-	font-weight: 400;
-	color: #000;
+	font: normal normal normal 18px/30px Poppins;
+	letter-spacing: 0px;
+	color: #303043;
 	margin-bottom: 24px;
 	margin-top: 10px;
 	opacity: 0.7;
@@ -1132,9 +1143,10 @@ h3 {
 }
 
 @media (max-width: 767px) {
-	/* line 41, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 	.banner_area .single_slider .slider_text p {
-		font-size: 16px;
+		font: normal normal normal 14px/24px Poppins !important;
+		letter-spacing: 0px;
+		color: #303043;
 	}
 }
 
@@ -1564,7 +1576,7 @@ h3 {
 	width: 100%;
 	border: none;
 	border-bottom: 1px solid #e8e8e8;
-	font-size: 15px;
+	font: normal normal 600 18px/36px Poppins;
 	margin-bottom: 40px;
 	padding-bottom: 15px;
 	outline: none;
@@ -1640,7 +1652,7 @@ h3 {
 }
 .owl-controls {
 	position: absolute;
-	top: 94%;
+	top: 94.6%;
 	left: 50%;
 	z-index: 6;
 	transform: translate(-50%, -50%);
@@ -1716,30 +1728,28 @@ div#customNav {
 }
 
 /* line 27, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
-.testimonial_area .single_testmonial .testmonial_author .thumb {
-	width: 42px;
-	height: 42px;
+.testimonial_area .single_testmonial .testmonial_author .thumb img {
+	width: 72px !important;
+	height: 72px !important;
+	position: relative;
+	top: -8px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	margin: auto;
-	margin: auto auto 15px auto;
 }
 
 /* line 34, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author h3 {
-	color: #000;
-	font-size: 15px;
-	font-weight: 500;
+	color: #111111;
+	font: normal normal 600 18px/30px Poppins;
 	margin-bottom: 5px;
 	text-align: left;
 }
 
 /* line 40, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .testmonial_author span {
-	font-size: 13px;
-	font-weight: 400;
-	color: #000;
+	font: normal normal normal 18px/30px Poppins;
+	color: #111111;
 }
 
 /* line 47, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
@@ -1767,11 +1777,30 @@ div#customNav {
 	background-position: center center;
 	padding: 162px 0;
 }
-
+.testmonial_author {
+	gap: 30px;
+	float: left;
+}
 @media (max-width: 767px) {
 	/* line 61, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
 	.Information_area {
 		padding: 100px 0;
+	}
+	.testmonial_author {
+		gap: 20px !important;
+		float: left;
+	}
+	.testimonial_area .single_testmonial .testmonial_author h3 {
+		color: #111111;
+		font: normal normal 600 14px/24px Poppins !important;
+		margin-bottom: 5px;
+		text-align: left;
+	}
+
+	/* line 40, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
+	.testimonial_area .single_testmonial .testmonial_author span {
+		font: normal normal normal 14px/24px Poppins !important;
+		color: #111111;
 	}
 }
 
@@ -2068,7 +2097,7 @@ div#customNav {
 	}
 	.owl-controls {
 		position: absolute;
-		top: 89.7%;
+		top: 90.5%;
 		left: 50%;
 		z-index: 6;
 		transform: translate(-50%, -50%);
@@ -3196,7 +3225,12 @@ div#customNav {
 /* line 3, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_tesmonial.scss */
 
 @media (max-width: 767px) {
-	/* line 3, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_tesmonial.scss */
+	.service_area .single_service p {
+		font: normal normal normal 14px/24px Poppins !important;
+		letter-spacing: 0px;
+		color: #303043;
+		opacity: 1;
+	}
 }
 .partners_area {
 	padding-top: 65px;
@@ -3262,11 +3296,11 @@ div#customNav {
 
 /* line 34, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
 .service_area .single_service p {
-	font-size: 15px;
-	font-weight: 400;
-	color: #303043;
-	line-height: 28px;
 	margin-bottom: 6px;
+	font: normal normal normal 16px/24px Poppins;
+	letter-spacing: 0px;
+	color: #303043;
+	opacity: 1;
 }
 
 /* line 41, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
@@ -5685,13 +5719,11 @@ h6 {
 	text-align: left;
 }
 
-/* line 1243, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left .thumb {
 	margin-right: 20px;
 	background: #000;
 }
 
-/* line 1247, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left .thumb img {
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
@@ -6170,7 +6202,6 @@ h6 {
 
 .slick-slide img {
 	display: block;
-	opacity: 0.5;
 }
 
 .slick-slide.slick-loading img {
