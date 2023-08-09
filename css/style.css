@@ -1601,6 +1601,10 @@ label.error {
 	font-weight: 300;
 	font-size: 15px;
 }
+.contact_form_quote .form_wrap form input:focus,
+.contact_form_quote .form_wrap form textarea:focus {
+	border-bottom: 1px solid #ff9548;
+}
 
 /* line 30, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote .form_wrap form textarea {
