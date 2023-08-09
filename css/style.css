@@ -1064,6 +1064,12 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+.contact-area-section .single_slider {
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 
 @media (max-width: 767px) {
 	/* line 8, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
@@ -1517,6 +1523,11 @@ h3 {
 	padding-top: 60px;
 	padding-bottom: 40px;
 }
+.contact_background.contact_form_quote {
+	background: #fff;
+	padding: 30px;
+	margin-bottom: 60px;
+}
 label.error {
 	position: relative;
 	top: -33px;
@@ -1550,6 +1561,9 @@ label.error {
 /* line 4, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote .form_wrap {
 	margin-bottom: 30px;
+}
+.contact_background.contact_form_quote .form_wrap {
+	margin-bottom: 60px;
 }
 
 /* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
@@ -1598,8 +1612,7 @@ label.error {
 .contact_form_quote .form_wrap form input::placeholder,
 .contact_form_quote .form_wrap form textarea::placeholder {
 	color: #727272;
-	font-weight: 300;
-	font-size: 15px;
+	font: normal normal normal 16px/36px Poppins !important;
 }
 .contact_form_quote .form_wrap form input:focus,
 .contact_form_quote .form_wrap form textarea:focus {
@@ -1634,6 +1647,36 @@ label.error {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	overflow: hidden;
+}
+.get_in_touch {
+	padding-top: 15%;
+}
+.get_in_touch h1 {
+	font: normal normal 600 56px/54px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+	opacity: 1;
+}
+.get_in_touch p {
+	font: normal normal normal 18px/54px Poppins;
+	letter-spacing: 0px;
+	color: #303043;
+	opacity: 1;
+}
+.fomt_text {
+	padding: 40px 0px 15px;
+}
+.fomt_text h3 {
+	font: normal normal 600 32px/54px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+	opacity: 1;
+}
+.fomt_text p {
+	font: normal normal normal 18px/30px Poppins;
+	letter-spacing: 0px;
+	color: #303043;
+	opacity: 1;
 }
 
 /* line 45, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
@@ -1689,6 +1732,15 @@ div#customNav {
 }
 
 @media (max-width: 767px) {
+	.get_in_touch {
+		padding-top: 30%;
+	}
+	.get_in_touch h1 {
+		font: normal normal 600 40px/25px Poppins;
+		letter-spacing: 0px;
+		color: #111111;
+		opacity: 1;
+	}
 	.testimonial_area {
 		padding: 50px 0;
 	}
