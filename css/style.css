@@ -1683,9 +1683,13 @@ div#customNav {
 	margin: 35px 0px;
 	padding: 15px 0px 35px 0px;
 }
+
 @media (max-width: 767px) {
 	.testimonial_area {
 		padding: 50px 0;
+	}
+	label.error {
+		top: -25px !important;
 	}
 	.testimonial_img img {
 		width: 144px !important;
@@ -6100,6 +6104,14 @@ h6 {
 @media (max-width: 576px) {
 	/* line 150, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog_part.scss */
 }
+@media (max-width: 767px) {
+	.client-slider {
+		padding-top: 0px !important;
+	}
+	.service_area {
+		padding-top: 0px !important;
+	}
+}
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 	/* line 150, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog_part.scss */
@@ -6120,23 +6132,19 @@ h6 {
 
 /* Slick Slider */
 
-.slick-prev,
-.slick-next {
-	position: absolute;
-	top: 135%;
-	font-size: 1.8rem;
+.slick-container {
+	width: 100%;
 }
 
-.slick-prev {
-	left: 0;
+.slick-slide {
+	margin: 0px 20px;
 }
 
-.slick-next {
-	right: 0;
+.slick-slide img {
+	width: 100%;
 }
 
 .slick-slider {
-	margin-top: 80px;
 	position: relative;
 	display: block;
 	box-sizing: border-box;
@@ -6183,17 +6191,14 @@ h6 {
 	left: 0;
 	display: block;
 }
-
 .slick-track:before,
 .slick-track:after {
 	display: table;
 	content: "";
 }
-
 .slick-track:after {
 	clear: both;
 }
-
 .slick-loading .slick-track {
 	visibility: hidden;
 }
@@ -6204,19 +6209,15 @@ h6 {
 	height: 100%;
 	min-height: 1px;
 }
-
 [dir="rtl"] .slick-slide {
 	float: right;
 }
-
 .slick-slide img {
 	display: block;
 }
-
 .slick-slide.slick-loading img {
 	display: none;
 }
-
 .slick-slide.dragging img {
 	pointer-events: none;
 }
@@ -6231,30 +6232,10 @@ h6 {
 	height: auto;
 	border: 1px solid transparent;
 }
-
 .slick-arrow.slick-hidden {
 	display: none;
 }
 
-.slide {
-	transition: filter 0.4s;
-	margin: 0px 0px;
-}
-
-.fas {
-	color: #96bd0b;
-}
-.slick-prev {
-	left: 0;
-}
-.slick-prev,
-.slick-next {
-	position: absolute;
-	top: 35%;
-	font-size: 1.8rem;
-}
-
-.section {
-	max-width: 1200px;
-	margin: 0 auto;
+.client-slider {
+	padding-top: 40px;
 }

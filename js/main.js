@@ -64,21 +64,25 @@
 				},
 			},
 		});
-		$(".customer-logos").slick({
-			slidesToShow: 4,
-			slidesToScroll: 1,
+		$(".client-slider").slick({
+			slidesToShow: 5,
+			slidesToScroll: 2,
 			autoplay: true,
-			autoplaySpeed: 800,
-			arrows: true,
+			autoplaySpeed: 900,
+			arrows: false,
 			dots: false,
 			pauseOnHover: false,
-			prevArrow: "",
-			nextArrow: "",
 			responsive: [
 				{
 					breakpoint: 768,
 					settings: {
-						slidesToShow: 3,
+						slidesToShow: 4,
+					},
+				},
+				{
+					breakpoint: 767,
+					settings: {
+						slidesToShow: 2,
 					},
 				},
 				{
@@ -230,20 +234,27 @@
 		});
 		$("#myform").validate({
 			rules: {
+				fname: "required",
+				lname: "required",
+				wemail: "required",
+				mobile_code: "required",
+				sales_team: "required",
+			},
+			messages: {
 				fname: {
-					required: true,
+					required: "Please complete this required field.",
 				},
 				lname: {
-					required: true,
+					required: "Please complete this required field.",
 				},
 				wemail: {
-					required: true,
+					required: "Please complete this required field.",
 				},
 				mobile_code: {
-					required: true,
+					required: "Please complete this required field.",
 				},
 				sales_team: {
-					required: true,
+					required: "Please complete this required field.",
 				},
 			},
 		});
