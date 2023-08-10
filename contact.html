@@ -48,7 +48,7 @@
 									<div class="main-menu d-none d-lg-block">
 										<nav>
 											<ul id="navigation">
-												<li><a class="active" href="#">home</a></li>
+												<li><a class="active" href="index.html">home</a></li>
 												<li>
 													<a href="#"
 														>Products
@@ -92,7 +92,7 @@
 														<li><a href="#">Case Studies</a></li>
 													</ul>
 												</li>
-												<li><a href="#">Company</a></li>
+												<li><a href="contact.html">Company</a></li>
 												<li>
 													<div class="Appointment mobile_request">
 														<div class="book_btn">
@@ -130,7 +130,7 @@
 								<p>We’re happy to talk to you.</p>
 							</div>
 						</div>
-						<div class="col-xl-7">
+						<div class="col-xl-6 col-md-6 col-sm-6">
 							<div class="fomt_text">
 								<h3>Send us a message.</h3>
 								<p>
@@ -181,7 +181,39 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-5"></div>
+						<div class="col-xl-5 col-md-6 col-sm-6 offset-lg-1">
+							<div class="fomt_text">
+								<h3>Let’s talk</h3>
+								<p>
+									If you have any questions about the subscription or are not
+									sure which plan is right for you, contact our team and let’s
+									schedule a call.
+								</p>
+							</div>
+							<div class="contact_div">
+								<div class="call_us">
+									<span>Call us</span>
+									<p>469-651-1168</p>
+								</div>
+								<div class="email_us">
+									<span>Email us</span>
+									<p>hello@gtmally.com</p>
+								</div>
+							</div>
+							<div class="address_location">
+								<h3>Address</h3>
+								<p>2866 Oakway Lane, New York, USA</p>
+								<div id="googleMap" class="iframe_contact"></div>
+								<!-- <iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2866.7108063941396!2d-96.93896612512576!3d32.87867947878503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e82a464aae785%3A0x170cbabfe62c2854!2s547%20W%20Northwest%20Hwy%2C%20Irving%2C%20TX%2075039%2C%20USA!5e1!3m2!1sen!2sin!4v1691659449600!5m2!1sen!2sin"
+									
+									style="border: 0"
+									allowfullscreen=""
+									loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"
+								></iframe> -->
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -413,7 +445,6 @@
 		<script src="js/plugins.js"></script>
 		<script src="js/gijgo.min.js"></script>
 		<script src="js/slick.min.js"></script>
-
 		<script src="js/contact.js"></script>
 		<script src="js/jquery.ajaxchimp.min.js"></script>
 		<script src="js/jquery.form.js"></script>
@@ -421,6 +452,32 @@
 		<script src="js/mail-script.js"></script>
 		<script src="js/intlTelInput.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			var myCenter = new google.maps.LatLng(32.878846, -96.936365);
+
+			function initialize() {
+				var mapProp = {
+					center: myCenter,
+					zoom: 12,
+					mapTypeId: google.maps.MapTypeId.ROADMAP,
+					disableDefaultUI: true,
+				};
+
+				var map = new google.maps.Map(
+					document.getElementById("googleMap"),
+					mapProp
+				);
+
+				var marker = new google.maps.Marker({
+					position: myCenter,
+				});
+
+				marker.setMap(map);
+			}
+
+			google.maps.event.addDomListener(window, "load", initialize);
+		</script>
 
 		<script
 			async

@@ -1573,9 +1573,17 @@ label.error {
 	color: #001d38;
 	margin-bottom: 51px;
 }
-
+.iframe_contact {
+	width: 485px;
+	height: 300px;
+	border-radius: 4px;
+}
 @media (max-width: 767px) {
-	/* line 6, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
+	.iframe_contact {
+		margin-left: 8px;
+		width: 329px;
+		height: 204px;
+	}
 	.contact_form_quote .form_wrap h3 {
 		font-size: 38px;
 	}
@@ -1678,6 +1686,21 @@ label.error {
 	color: #303043;
 	opacity: 1;
 }
+.address_location {
+	padding: 35px 0px;
+}
+.address_location h3 {
+	font: normal normal 600 32px/54px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+	opacity: 1;
+}
+.address_location p {
+	font: normal normal normal 18px/30px Poppins;
+	letter-spacing: 0px;
+	color: #303043;
+	opacity: 1;
+}
 
 /* line 45, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote .contact_thumb img {
@@ -1730,8 +1753,66 @@ div#customNav {
 	margin: 35px 0px;
 	padding: 15px 0px 35px 0px;
 }
-
+.contact_div {
+	display: flex;
+	gap: 17px;
+}
+.call_us {
+	display: grid;
+	grid-template-rows: 26px;
+	padding: 20px;
+	width: 238px;
+	height: 89px;
+	background: #ff6b00 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+}
+.call_us p {
+	font: normal normal 600 18px/30px Poppins;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+.call_us span {
+	font: normal normal normal 16px/30px Poppins;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+.email_us {
+	display: grid;
+	grid-template-rows: 26px;
+	padding: 20px;
+	width: 238px;
+	height: 89px;
+	background: #fff 0% 0% no-repeat padding-box;
+	border-radius: 4px;
+	opacity: 1;
+}
+.email_us p {
+	font: normal normal 600 18px/30px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+}
+.email_us span {
+	font: normal normal normal 16px/30px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+}
 @media (max-width: 767px) {
+	.fomt_text {
+		display: none;
+	}
+	.contact_background.contact_form_quote {
+		margin-bottom: 0px !important;
+	}
+	.contact_div {
+		display: grid !important;
+	}
+	.call_us {
+		width: auto !important;
+	}
+	.email_us {
+		width: auto !important;
+	}
 	.get_in_touch {
 		padding-top: 30%;
 	}
@@ -2193,6 +2274,12 @@ div#customNav {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+	.call_us {
+		height: auto !important;
+	}
+	.email_us {
+		height: auto !important;
+	}
 	.owl-controls {
 		position: absolute;
 		top: 95.9%;
