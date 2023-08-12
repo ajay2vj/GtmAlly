@@ -4941,8 +4941,29 @@ h6 {
 
 /* line 1042, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */
 .form-select {
-	height: 40px;
-	width: 100%;
+	height: 52px;
+	text-overflow: ellipsis;
+	width: 60px;
+	border: 0;
+	border-bottom: 1px solid #e8e8e8;
+	background: transparent;
+	outline: none;
+	font: normal normal 600 18px/36px Poppins;
+	position: relative;
+	top: -16px;
+}
+.select_container label.error {
+	position: absolute !important;
+	top: 140px !important;
+}
+@media (max-width: 767px) {
+	.select_container label.error {
+		position: absolute !important;
+		top: 320px !important;
+	}
+}
+.form-select select:focus {
+	border-bottom: 1px solid #ff9548;
 }
 
 /* line 1045, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_elements.scss */

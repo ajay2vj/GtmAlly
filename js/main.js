@@ -93,12 +93,6 @@
 				},
 			],
 		});
-		var mobile_code = document.querySelector("#mobile_code");
-		window.intlTelInput(mobile_code, {
-			initialCountry: "in",
-			separateDialCode: true,
-			showFlags: true,
-		});
 		// review-active
 		$(".testmonial_active").owlCarousel({
 			loop: true,
