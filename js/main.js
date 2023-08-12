@@ -17,15 +17,12 @@
 		var menu = $("ul#navigation");
 		if (menu.length) {
 			menu.slicknav({
+				closeOnClick: false,
 				prependTo: ".mobile_menu",
 				closedSymbol: "+",
 				openedSymbol: "-",
 			});
 		}
-		// blog-menu
-		// $('ul#blog-menu').slicknav({
-		//   prependTo: ".blog_menu"
-		// });
 
 		// review-active
 		$(".slider_active").owlCarousel({
@@ -104,7 +101,17 @@
 			const selectedCountryCode = countryCodeSelect.value;
 			selectedCountryCodeElement.textContent = selectedCountryCode;
 		});
-
+		// scroll to bottom show nav color
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $(".slicknav_menu");
+				$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+			});
+		});
+		$(document).on("click", ".slicknav_btn", function (e) {
+			//toggle class to ul
+			$(this).closest(".slicknav_menu").toggleClass("bg_color");
+		});
 		// review-active
 		$(".testmonial_active").owlCarousel({
 			loop: true,

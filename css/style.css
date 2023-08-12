@@ -596,11 +596,15 @@ h3 {
 .mobile_request {
 	display: none !important;
 }
+.slicknav_menu.scrolled {
+	background-color: #fff !important;
+	transition: background-color 200ms linear;
+}
 @media (max-width: 767px) {
 	/* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 	.header-area {
 		padding-top: 0;
-		position: initial;
+		/* position: initial; */
 	}
 	.mobile_request {
 		display: block !important;
@@ -2256,7 +2260,7 @@ div#customNav {
 		width: 109px;
 		position: absolute !important;
 		z-index: 11 !important;
-		padding: 21px 0px !important;
+		padding: 17px 0px !important;
 	}
 	.owl-controls {
 		position: absolute;
