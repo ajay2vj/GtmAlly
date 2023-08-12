@@ -1216,17 +1216,6 @@
 			src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
 		></script>
 		<script>
-			const countryCodeSelect = document.getElementById("countryCodeSelect");
-			const selectedCountryCodeElement = document.getElementById(
-				"selectedCountryCode"
-			);
-			const selectedCountryCode = countryCodeSelect.value;
-			selectedCountryCodeElement.textContent = selectedCountryCode;
-			countryCodeSelect.addEventListener("change", function () {
-				const selectedCountryCode = countryCodeSelect.value;
-				selectedCountryCodeElement.textContent = selectedCountryCode;
-			});
-
 			window.dataLayer = window.dataLayer || [];
 			function gtag() {
 				dataLayer.push(arguments);

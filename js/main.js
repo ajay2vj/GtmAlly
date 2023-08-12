@@ -93,6 +93,18 @@
 				},
 			],
 		});
+		// country number
+		const countryCodeSelect = document.getElementById("countryCodeSelect");
+		const selectedCountryCodeElement = document.getElementById(
+			"selectedCountryCode"
+		);
+		const selectedCountryCode = countryCodeSelect.value;
+		selectedCountryCodeElement.textContent = selectedCountryCode;
+		countryCodeSelect.addEventListener("change", function () {
+			const selectedCountryCode = countryCodeSelect.value;
+			selectedCountryCodeElement.textContent = selectedCountryCode;
+		});
+
 		// review-active
 		$(".testmonial_active").owlCarousel({
 			loop: true,
