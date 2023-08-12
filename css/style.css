@@ -1584,7 +1584,6 @@ label.error {
 }
 @media (max-width: 767px) {
 	.iframe_contact {
-		margin-left: 8px;
 		width: 329px;
 		height: 204px;
 	}
@@ -1602,7 +1601,23 @@ label.error {
 		font: normal normal normal 12px/20px Poppins !important;
 		letter-spacing: 0px;
 		opacity: 1;
-		padding-right: 8rem;
+	}
+	.contact_form_quote .form_wrap form input::placeholder,
+	.contact_form_quote .form_wrap form textarea::placeholder {
+		color: #727272;
+		font: normal normal normal 14px/32px Poppins !important;
+	}
+	.fomt_text h3 {
+		font: normal normal 600 30px/54px Poppins !important;
+	}
+	.fomt_text p {
+		font: normal normal normal 16px/30px Poppins !important;
+	}
+	.address_location h3 {
+		font: normal normal 600 30px/54px Poppins !important;
+	}
+	.address_location p {
+		font: normal normal normal 16px/30px Poppins !important;
 	}
 }
 
@@ -1624,7 +1639,7 @@ label.error {
 .contact_form_quote .form_wrap form input::placeholder,
 .contact_form_quote .form_wrap form textarea::placeholder {
 	color: #727272;
-	font: normal normal normal 16px/36px Poppins !important;
+	font: normal normal normal 16px/36px Poppins;
 }
 .contact_form_quote .form_wrap form input:focus,
 .contact_form_quote .form_wrap form textarea:focus {
@@ -6293,14 +6308,24 @@ h6 {
 	.service_area {
 		padding-top: 0px !important;
 	}
+	.slick-container .client-slider .slide img {
+		width: 145px !important;
+		height: 48px !important;
+	}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 	/* line 150, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog_part.scss */
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	/* line 150, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_blog_part.scss */
+@media only screen and (max-width: 768px) and (max-width: 991px) {
+	.slick-slide {
+		margin: 0px 60px !important;
+	}
+	.slick-container .client-slider .slide img {
+		width: 145px !important;
+		height: 48px !important;
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -6324,6 +6349,10 @@ h6 {
 
 .slick-slide img {
 	width: 100%;
+}
+.slick-container .client-slider .slide img {
+	width: 165px;
+	height: 48px;
 }
 
 .slick-slider {
