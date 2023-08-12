@@ -1584,7 +1584,7 @@ label.error {
 }
 @media (max-width: 767px) {
 	.iframe_contact {
-		width: 329px;
+		width: -webkit-fill-available;
 		height: 204px;
 	}
 	.contact_form_quote .form_wrap h3 {
