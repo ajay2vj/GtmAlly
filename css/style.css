@@ -6514,20 +6514,46 @@ h4.products-benefits {
 .product-benefits {
 	margin-bottom: 60px;
 }
-
+.desktoph3 {
+	display: block;
+}
+.mobileh3 {
+	display: none;
+}
 /* media queries */
 @media (max-width: 767px) {
+	.desktoph3 {
+		display: none !important;
+	}
+	.mobileh3 {
+		display: block !important;
+		padding: 0px !important;
+	}
+	.products_area .slider_text p.products_text {
+		font: normal normal 500 20px/30px Poppins !important;
+		letter-spacing: 0px;
+		color: #111111;
+		opacity: 0.7;
+	}
+	.products-text .video_service_btn .boxed-btn3 {
+		width: -webkit-fill-available;
+		margin-right: 0px !important;
+	}
 	.products-row .banner_image {
 		margin-top: 0px;
 	}
 	.products_service_area .section_title h3 {
 		padding: 20px 0px 0px 0px !important;
+		font: normal normal 600 30px/44px Poppins !important;
+		letter-spacing: 0px;
+		color: #111111;
+		opacity: 1;
 	}
 	p.products_para {
-		padding: 0px 30px;
+		padding: 0px 15px;
 	}
 	.box-benefits {
 		height: auto;
-		margin: 20px 30px;
+		margin: 10px;
 	}
 }
