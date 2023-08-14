@@ -6494,7 +6494,8 @@ h4.products-benefits {
 	opacity: 1;
 }
 .box-benefits {
-	padding: 15px;
+	height: 191px;
+	padding: 25px;
 	background: #fdedeb 0% 0% no-repeat padding-box;
 	opacity: 1;
 }
@@ -6526,6 +6527,7 @@ h4.products-benefits {
 		padding: 0px 30px;
 	}
 	.box-benefits {
+		height: auto;
 		margin: 20px 30px;
 	}
 }
