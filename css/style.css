@@ -211,7 +211,7 @@ h3 {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	opacity: 0.4;
+	opacity: 1;
 }
 .product_overlay2::before {
 	position: absolute;
@@ -222,9 +222,23 @@ h3 {
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-	opacity: 0.4;
+	opacity: 1;
 }
-
+.product_RFP_overlay2 {
+	position: relative;
+	z-index: 0;
+}
+.product_RFP_overlay2::before {
+	position: absolute;
+	content: "";
+	background-color: #f5fefa;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 1;
+}
 /* line 175, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 .overlay_03 {
 	position: relative;
