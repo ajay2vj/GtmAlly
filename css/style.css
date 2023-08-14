@@ -196,12 +196,27 @@ h3 {
 	position: relative;
 	z-index: 0;
 }
+.product_overlay2 {
+	position: relative;
+	z-index: 0;
+}
 
 /* line 163, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 .overlay2::before {
 	position: absolute;
 	content: "";
 	background-color: #fff5ed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.4;
+}
+.product_overlay2::before {
+	position: absolute;
+	content: "";
+	background-color: #f6f4fd;
 	top: 0;
 	left: 0;
 	width: 100%;

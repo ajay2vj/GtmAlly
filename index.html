@@ -47,7 +47,7 @@
 									<div class="main-menu d-none d-lg-block">
 										<nav>
 											<ul id="navigation">
-												<li><a class="active" href="#">home</a></li>
+												<li><a class="active" href="index.html">home</a></li>
 												<li>
 													<a href="#"
 														>Products
@@ -58,7 +58,11 @@
 															<a href="#">AllyAI RFP management</a>
 														</li>
 														<li><a href="#">AllyAI Product Research</a></li>
-														<li><a href="#">AllyAI Demand Generation</a></li>
+														<li>
+															<a href="ally_ai_demand_generation.html"
+																>AllyAI Demand Generation</a
+															>
+														</li>
 														<li><a href="#">AllyAI Sales</a></li>
 														<li>
 															<a href="#">AllyAI Sales AllyAI Enablement</a>
@@ -1197,6 +1201,19 @@
 			async
 			src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
 		></script>
+		<script>
+			// country number
+			const countryCodeSelect = document.getElementById("countryCodeSelect");
+			const selectedCountryCodeElement = document.getElementById(
+				"selectedCountryCode"
+			);
+			const selectedCountryCode = countryCodeSelect.value;
+			selectedCountryCodeElement.textContent = selectedCountryCode;
+			countryCodeSelect.addEventListener("change", function () {
+				const selectedCountryCode = countryCodeSelect.value;
+				selectedCountryCodeElement.textContent = selectedCountryCode;
+			});
+		</script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag() {
