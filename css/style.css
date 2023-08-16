@@ -239,6 +239,21 @@ h3 {
 	z-index: -1;
 	opacity: 1;
 }
+.product_research_overlay2 {
+	position: relative;
+	z-index: 0;
+}
+.product_research_overlay2::before {
+	position: absolute;
+	content: "";
+	background-color: #fefef5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 1;
+}
 /* line 175, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 .overlay_03 {
 	position: relative;
@@ -3479,7 +3494,6 @@ div#customNav {
 	-moz-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
-	margin-bottom: 30px;
 }
 
 /* line 13, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */

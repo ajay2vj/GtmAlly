@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Expert_Identification" data-name="Expert Identification" transform="translate(8037 -4149)">
+    <rect id="Rectangle_1441" data-name="Rectangle 1441" width="48" height="48" transform="translate(-8037 4149)" fill="#b85bcf" opacity="0"/>
+    <g id="Group_6588" data-name="Group 6588" transform="translate(-8038.5 4148.5)">
+      <path id="Path_3673" data-name="Path 3673" d="M5.692,5.692H16.364V2.5H2.5V16.364H5.692Z" fill="#b85bcf" stroke="#b85bcf" stroke-width="0.4"/>
+      <path id="Path_3674" data-name="Path 3674" d="M68.4,2.5V5.692H79.072V16.364h3.192V2.5Z" transform="translate(-34.503)" fill="#b85bcf" stroke="#b85bcf" stroke-width="0.4"/>
+      <path id="Path_3675" data-name="Path 3675" d="M79.072,79.072H68.4v3.192H82.264V68.4H79.072Z" transform="translate(-34.503 -34.503)" fill="#b85bcf" stroke="#b85bcf" stroke-width="0.4"/>
+      <path id="Path_3676" data-name="Path 3676" d="M5.692,68.4H2.5V82.264H16.364V79.072H5.692Z" transform="translate(0 -34.503)" fill="#b85bcf" stroke="#b85bcf" stroke-width="0.4"/>
+      <path id="Path_3677" data-name="Path 3677" d="M48.407,32.3a16.1,16.1,0,1,0-16.1,16.1A16.145,16.145,0,0,0,48.407,32.3ZM32.3,45.215A12.912,12.912,0,1,1,45.215,32.3,12.891,12.891,0,0,1,32.3,45.215Z" transform="translate(-7.173 -7.173)" fill="#b85bcf" stroke="#b85bcf" stroke-width="0.4"/>
+      <path id="Path_3678" data-name="Path 3678" d="M48.776,56.708a1.594,1.594,0,0,0-2.239.238,4.8,4.8,0,0,1-3.526,1.477,4.849,4.849,0,0,1-3.526-1.477,1.592,1.592,0,1,0-2.477,2,8.088,8.088,0,0,0,12.006,0A1.585,1.585,0,0,0,48.776,56.708Z" transform="translate(-17.881 -28.195)" fill="#b85bcf" stroke="#b85bcf" stroke-width="0.4"/>
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="2.43" cy="2.43" r="2.43" transform="translate(17.46 19.08)" fill="#b85bcf" stroke="#b85bcf" stroke-width="0.4"/>
+      <circle id="Ellipse_23" data-name="Ellipse 23" cx="2.43" cy="2.43" r="2.43" transform="translate(27.942 19.08)" fill="#b85bcf" stroke="#b85bcf" stroke-width="0.4"/>
+    </g>
+  </g>
+</svg>

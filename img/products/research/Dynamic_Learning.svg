@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1501" data-name="Rectangle 1501" width="44.524" height="35.372" fill="#22b10d"/>
+    </clipPath>
+  </defs>
+  <g id="Dynamic_Learning" data-name="Dynamic Learning" transform="translate(6684 -3822)">
+    <rect id="Rectangle_1500" data-name="Rectangle 1500" width="48" height="48" transform="translate(-6684 3822)" fill="#22b10d" opacity="0"/>
+    <g id="Group_6612" data-name="Group 6612" transform="translate(-6682 3828)">
+      <g id="Group_6611" data-name="Group 6611" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_3693" data-name="Path 3693" d="M22.262,35.372a36.04,36.04,0,0,0-10.544-6.555A31.3,31.3,0,0,0,0,26.529V0A27.136,27.136,0,0,1,11.533,2.659,40.111,40.111,0,0,1,22.262,10.08,40.111,40.111,0,0,1,32.991,2.659,27.136,27.136,0,0,1,44.524,0V26.529a31.3,31.3,0,0,0-11.719,2.288,36.04,36.04,0,0,0-10.544,6.555m0-4.762a43.388,43.388,0,0,1,9.059-5.04,34.694,34.694,0,0,1,9.492-2.381V4.02A26.411,26.411,0,0,0,31.94,7.39a51.965,51.965,0,0,0-9.678,7.452,59.156,59.156,0,0,0-9.894-7.606A24.26,24.26,0,0,0,3.71,4.02V23.19A34.694,34.694,0,0,1,13.2,25.57a43.388,43.388,0,0,1,9.059,5.04" transform="translate(0 0)" fill="#22b10d"/>
+      </g>
+    </g>
+  </g>
+</svg>
