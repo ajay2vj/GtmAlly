@@ -254,6 +254,21 @@ h3 {
 	z-index: -1;
 	opacity: 1;
 }
+.enablement_overlay2 {
+	position: relative;
+	z-index: 0;
+}
+.enablement_overlay2::before {
+	position: absolute;
+	content: "";
+	background-color: #f5fef5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 1;
+}
 /* line 175, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/theme-default.scss */
 .overlay_03 {
 	position: relative;
@@ -6548,8 +6563,27 @@ h4.products-benefits {
 .mobileh3 {
 	display: none;
 }
+img.rfp-image {
+	padding-top: 35px;
+	width: 496px;
+	height: 510px;
+	margin-left: 50px;
+}
+img.product_research {
+	margin-top: 100px;
+}
 /* media queries */
 @media (max-width: 767px) {
+	img.product_research {
+		margin-top: 0px;
+	}
+	img.rfp-image {
+		width: 100%;
+		height: auto;
+		padding-top: 0px;
+		padding-bottom: 30px;
+		margin-left: 0px;
+	}
 	.desktoph3 {
 		display: none !important;
 	}
