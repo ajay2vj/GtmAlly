@@ -1222,12 +1222,19 @@ h3 {
 /* line 54, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .banner_area .single_slider .slider_text .video_service_btn > a {
 	margin-right: 15px;
+	width: 184px;
 }
 
 @media (max-width: 767px) {
 	/* line 54, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 	.banner_area .single_slider .slider_text .video_service_btn > a {
 		margin-bottom: 20px;
+		width: -webkit-fill-available;
+		margin-right: 0px;
+	}
+	.video_service_btn {
+    display: grid;
+    text-align: center;
 	}
 }
 
@@ -1714,7 +1721,7 @@ label.error {
 
 /* line 35, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_contact_quote.scss */
 .contact_form_quote .form_wrap form button {
-	margin-top: 41px;
+	margin-top: 30px;
 	text-align: center;
 	padding: 13px 40px;
 }
@@ -1840,19 +1847,19 @@ div#customNav {
 	padding: 20px;
 	width: 238px;
 	height: 89px;
-	background: #ff6b00 0% 0% no-repeat padding-box;
+	background: #fff 0% 0% no-repeat padding-box;
 	border-radius: 4px;
 	opacity: 1;
 }
 .call_us p {
 	font: normal normal 600 18px/30px Poppins;
 	letter-spacing: 0px;
-	color: #ffffff;
+	color: #111111;
 }
 .call_us span {
 	font: normal normal normal 16px/30px Poppins;
 	letter-spacing: 0px;
-	color: #ffffff;
+	color: #111111;
 }
 .email_us {
 	display: grid;
@@ -2328,7 +2335,7 @@ div#customNav {
 	}
 	.service_area .single_service {
 		padding: 20px 15px !important;
-		margin-bottom: -25px !important;
+		margin-bottom: 0px !important;
 	}
 	.logo img {
 		width: 109px;
