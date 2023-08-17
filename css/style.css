@@ -1142,7 +1142,7 @@ h3 {
 }
 .banner_area .single_slider .slider_text,
 .banner_image {
-	margin-top: 89px;
+	margin-top: 50px;
 }
 .banner_image img {
 	width: 100%;
@@ -1154,7 +1154,6 @@ h3 {
 	letter-spacing: 0px;
 	color: #111111;
 	opacity: 1;
-	margin-bottom: 15px;
 }
 
 /* line 26, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
@@ -1191,17 +1190,14 @@ h3 {
 	font-size: 20px;
 	font-weight: 400;
 	color: #000;
-	margin-bottom: 24px;
-	margin-top: 10px;
 	opacity: 0.7;
 }
 .banner_area .single_slider .slider_text p.slider_text_para {
 	font: normal normal normal 18px/30px Poppins;
 	letter-spacing: 0px;
 	color: #303043;
-	margin-bottom: 24px;
-	margin-top: 10px;
 	opacity: 0.7;
+	margin-bottom: 20px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1216,6 +1212,10 @@ h3 {
 		font: normal normal normal 14px/24px Poppins !important;
 		letter-spacing: 0px;
 		color: #303043;
+		margin-bottom: 8px !important;
+	}
+	.banner_area .single_slider .slider_text p.slider_text_para {
+		margin-bottom: 15px !important;
 	}
 }
 
@@ -1233,8 +1233,8 @@ h3 {
 		margin-right: 0px;
 	}
 	.video_service_btn {
-    display: grid;
-    text-align: center;
+		display: grid;
+		text-align: center;
 	}
 }
 
@@ -6571,17 +6571,23 @@ h4.products-benefits {
 	display: none;
 }
 img.rfp-image {
-	padding-top: 35px;
+	padding-top: 120px;
 	width: 496px;
 	height: 510px;
 	margin-left: 50px;
 }
 img.product_research {
+	margin-top: 145px;
+}
+img.product_demand {
 	margin-top: 100px;
 }
 /* media queries */
 @media (max-width: 767px) {
 	img.product_research {
+		margin-top: 0px;
+	}
+	img.product_demand {
 		margin-top: 0px;
 	}
 	img.rfp-image {
@@ -6624,5 +6630,47 @@ img.product_research {
 	.box-benefits {
 		height: auto;
 		margin: 10px;
+	}
+}
+/* breadcrumb */
+.breadcrumb {
+	margin-bottom: 60px;
+}
+
+.breadcrumb ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumb ul li {
+	font-size: 14px;
+	letter-spacing: 0px;
+	color: #303043;
+	opacity: 0.5;
+}
+
+.breadcrumb li:not(:last-child)::after {
+	display: inline-block;
+	margin: 0 1.25rem;
+	content: "-";
+}
+@media (max-width: 767px) {
+	.breadcrumb {
+		position: absolute;
+		top: 75px;
+	}
+	.banner_area .single_slider .slider_text,
+	.banner_image {
+		margin-top: 111px;
+	}
+	.breadcrumb li:not(:last-child)::after {
+		display: inline-block;
+		margin: 0 0.8rem;
+		content: "-";
+	}
+	.breadcrumb ul li {
+		font-size: 12px !important;
 	}
 }
