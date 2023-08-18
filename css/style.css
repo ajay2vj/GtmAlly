@@ -1889,6 +1889,10 @@ div#customNav {
 	background: #e0f0f1;
 	border-radius: 8px;
 	padding-bottom: 30px;
+	background-image: url(../img/testimonial/lineart.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: contain;
 }
 @media (max-width: 767px) {
 	.testimonial_bg {
