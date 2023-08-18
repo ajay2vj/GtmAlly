@@ -246,7 +246,7 @@ h3 {
 .product_research_overlay2::before {
 	position: absolute;
 	content: "";
-	background-color: #fefef5;
+	background-color: #f5f1ee;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1163,7 +1163,7 @@ h3 {
 
 @media (max-width: 767px) {
 	.banner_image {
-		margin-top: 0px;
+		margin-top: 0px !important;
 	}
 	.banner_area .single_slider .slider_text h3 {
 		font: normal normal 600 36px/48px Poppins !important;
@@ -1188,7 +1188,7 @@ h3 {
 /* line 41, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slider.scss */
 .banner_area .single_slider .slider_text p {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #000;
 	opacity: 0.7;
 }
@@ -1209,13 +1209,17 @@ h3 {
 
 @media (max-width: 767px) {
 	.banner_area .single_slider .slider_text p {
-		font: normal normal normal 14px/24px Poppins !important;
+		font: normal normal 500 20px/21px Poppins !important;
 		letter-spacing: 0px;
 		color: #303043;
 		margin-bottom: 8px !important;
 	}
 	.banner_area .single_slider .slider_text p.slider_text_para {
 		margin-bottom: 15px !important;
+		font: normal normal normal 14px/24px Poppins !important;
+		letter-spacing: 0px;
+		color: #303043;
+		opacity: 1;
 	}
 }
 
@@ -1882,13 +1886,13 @@ div#customNav {
 	color: #111111;
 }
 .testimonial_bg {
-	background: #f2f0ff;
+	background: #E0F0F1;
 	border-radius: 8px;
 	padding-bottom: 30px;
 }
 @media (max-width: 767px) {
 	.testimonial_bg {
-		background: #f2f0ff;
+		background: #E0F0F1;
 		border-radius: 8px;
 		padding-bottom: 30px;
 		margin: 0px 15px;
@@ -6660,6 +6664,9 @@ img.product_demand {
 	.breadcrumb {
 		position: absolute;
 		top: 75px;
+	}
+	.home_banner_area .single_slider .slider_text {
+		margin-top: 70px !important;
 	}
 	.banner_area .single_slider .slider_text,
 	.banner_image {
