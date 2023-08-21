@@ -1896,7 +1896,10 @@ div#customNav {
 }
 @media (max-width: 767px) {
 	.testimonial_bg {
-		background: #e0f0f1;
+		background-image: url(../img/testimonial/lineart_mobile.svg);
+		background-repeat: no-repeat;
+		background-position: 15px 123px;
+		background-size: contain;
 		border-radius: 8px;
 		padding-bottom: 30px;
 		margin: 0px 15px;
