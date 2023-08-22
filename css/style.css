@@ -6784,6 +6784,9 @@ img.product_demand {
 		color: #303043;
 		opacity: 1;
 	}
+	span#selectedCountryCode {
+		margin-top: -8px !important;
+	}
 }
 button.btn.btn-link.btn_bold {
 	font-weight: bold !important;
