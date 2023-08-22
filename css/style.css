@@ -2950,9 +2950,6 @@ div#customNav {
 	.footer .footer_top .footer_widget {
 		margin-bottom: 30px;
 	}
-	.footer .footer_top .footer_widget p {
-		display: none !important;
-	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -6787,4 +6784,12 @@ img.product_demand {
 		color: #303043;
 		opacity: 1;
 	}
+}
+button.btn.btn-link.btn_bold {
+	font-weight: bold !important;
+	text-decoration: none;
+}
+button.btn.btn-link.btn_bold.collapsed {
+	font-weight: 500 !important;
+	text-decoration: none;
 }
