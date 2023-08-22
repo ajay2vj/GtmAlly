@@ -6559,6 +6559,7 @@ h4.products-benefits {
 	padding: 25px 25px 15px 25px;
 	background: #fdedeb 0% 0% no-repeat padding-box;
 	opacity: 1;
+	height: 100%;
 }
 .box-benefits h2 {
 	font: normal normal 600 24px/24px Poppins;
