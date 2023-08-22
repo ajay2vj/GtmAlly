@@ -5061,6 +5061,9 @@ h6 {
 		position: absolute !important;
 		top: 320px !important;
 	}
+	.form-select {
+		font: normal normal normal 14px/32px Poppins;
+	}
 }
 .form-select select:focus {
 	border-bottom: 1px solid #ff9548;
