@@ -6799,3 +6799,150 @@ button.btn.btn-link.btn_bold.collapsed {
 	font-weight: 500 !important;
 	text-decoration: none;
 }
+.about_area .single_slider {
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.about_overlay2 {
+	position: relative;
+	z-index: 0;
+}
+.about_overlay2::before {
+	position: absolute;
+	content: "";
+	background-color: #fff5ed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 1;
+}
+.about_title h3 {
+	font: normal normal 600 56px/72px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+	opacity: 1;
+}
+.about_title p {
+	padding: 0px 5rem;
+	font: normal normal 600 24px/54px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+	opacity: 1;
+}
+.about_banner img {
+	width: 100%;
+	width: 857px;
+	margin: 36px 0px 0px;
+	height: 579px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about_mission_area {
+	padding-top: 32px;
+}
+.about_mission_area .about_content h1 {
+	font: normal normal 600 40px/54px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+	opacity: 1;
+}
+.about_mission_area .about_content p {
+	font: normal normal normal 18px/30px Poppins;
+	letter-spacing: 0px;
+	color: #303043;
+	opacity: 1;
+}
+.about_meet_team p {
+	text-align: left;
+	font: normal normal 500 18px/30px Poppins;
+	letter-spacing: 0px;
+	color: #303043;
+	opacity: 1;
+	padding: 0px 10px 10px;
+}
+.about_title_team h3 {
+	text-align: center;
+	font: normal normal 600 40px/54px Poppins;
+	letter-spacing: 0px;
+	color: #111111;
+	opacity: 1;
+	padding-bottom: 38px;
+}
+.about_meet_team ul li::before {
+	position: absolute;
+	content: "";
+	background: url(https://www.accuknox.com/wp-content/uploads/2023/06/bullet.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	left: -14px;
+	background-position: 0px 7px;
+	height: 28px;
+	width: 20px;
+}
+.about_meet_team ul li {
+	font: normal normal normal 18px/32px Poppins;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+@media (max-width: 767px) {
+	.about_meet_team ul li {
+		font: normal normal normal 14px/20px Poppins;
+		letter-spacing: 0px;
+		color: #000000;
+		opacity: 1;
+		padding: 0px 0px 14px 40px;
+	}
+	.about_title h3 {
+		font: normal normal 600 32px/44px Poppins;
+		letter-spacing: 0px;
+		color: #111111;
+		opacity: 1;
+		padding-top: 10px;
+	}
+	.about_title p {
+		padding: 0px 0px;
+		font: normal normal 600 16px/24px Poppins;
+		letter-spacing: 0px;
+		color: #303043;
+		opacity: 1;
+	}
+	.about_banner img {
+		width: 100%;
+		height: auto;
+		margin: 8px 0px 40px;
+	}
+	.about_mission_area .about_content h1 {
+		text-align: center;
+	}
+	.about_title_team h3 {
+		text-align: center;
+		font: normal normal 600 30px/44px Poppins;
+		letter-spacing: 0px;
+		color: #111111;
+		opacity: 1;
+		padding-bottom: 0px;
+	}
+	.about_meet_team p {
+		font: normal normal 500 14px/24px Poppins;
+		letter-spacing: 0px;
+		color: #303043;
+		opacity: 1;
+	}
+	.about_meet_team ul li::before {
+		position: absolute;
+		content: "";
+		background: url(https://www.accuknox.com/wp-content/uploads/2023/06/bullet.png);
+		background-size: 20px 20px;
+		background-repeat: no-repeat;
+		left: 28px;
+    background-position: 0px 2px;
+		height: 28px;
+		width: 20px;
+	}
+}
