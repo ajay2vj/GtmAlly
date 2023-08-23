@@ -6875,20 +6875,16 @@ button.btn.btn-link.btn_bold.collapsed {
 }
 .about_meet_team ul li::before {
 	position: absolute;
-	content: "";
-	background: url(https://www.accuknox.com/wp-content/uploads/2023/06/bullet.png);
-	background-size: 20px 20px;
-	background-repeat: no-repeat;
+	content: "✔";
+	color: #ff5c29;
 	left: -14px;
-	background-position: 0px 7px;
-	height: 28px;
-	width: 20px;
 }
 .about_meet_team ul li {
 	font: normal normal normal 18px/32px Poppins;
 	letter-spacing: 0px;
 	color: #000000;
 	opacity: 1;
+	padding: 0px 0px 12px;
 }
 @media (max-width: 767px) {
 	.about_meet_team ul li {
@@ -6936,13 +6932,8 @@ button.btn.btn-link.btn_bold.collapsed {
 	}
 	.about_meet_team ul li::before {
 		position: absolute;
-		content: "";
-		background: url(https://www.accuknox.com/wp-content/uploads/2023/06/bullet.png);
-		background-size: 20px 20px;
-		background-repeat: no-repeat;
+		content: "✔";
+		color: #ff5c29;
 		left: 28px;
-    background-position: 0px 2px;
-		height: 28px;
-		width: 20px;
 	}
 }
