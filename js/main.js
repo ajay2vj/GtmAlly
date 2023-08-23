@@ -229,7 +229,32 @@
 				columnWidth: 1,
 			},
 		});
-
+		$(document).ready(function () {
+			$(".leader-slider").slick({
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				arrows: false,
+				dots: false,
+				speed: 300,
+				infinite: true,
+				autoplaySpeed: 5000,
+				autoplay: true,
+				responsive: [
+					{
+						breakpoint: 991,
+						settings: {
+							slidesToShow: 3,
+						},
+					},
+					{
+						breakpoint: 767,
+						settings: {
+							slidesToShow: 1,
+						},
+					},
+				],
+			});
+		});
 		// filter items on button click
 		$(".portfolio-menu").on("click", "button", function () {
 			var filterValue = $(this).attr("data-filter");
