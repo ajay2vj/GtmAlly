@@ -1015,8 +1015,8 @@ h3 {
 	content: "";
 	background: #ff6b00;
 	width: 100%;
-	height: 3px;
-	bottom: -27px;
+	height: 1.5px;
+	bottom: -7px;
 	left: 0;
 	opacity: 0;
 	transform: scaleX(0);
@@ -7083,4 +7083,8 @@ img.platform-image {
 		padding: 0px 15px;
 		padding-top: 15px;
 	}
+}
+.nav_subheader {
+	font-weight: bold;
+	color: #000;
 }
