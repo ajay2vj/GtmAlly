@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="672" height="572" viewBox="0 0 672 572">
+  <defs>
+    <filter id="Path_3752" x="0" y="0" width="672" height="572" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6746" data-name="Group 6746" transform="translate(-2540 -3609)">
+    <g transform="matrix(1, 0, 0, 1, 2540, 3609)" filter="url(#Path_3752)">
+      <path id="Path_3752-2" data-name="Path 3752" d="M20,0H580a20,20,0,0,1,20,20V480a20,20,0,0,1-20,20H20A20,20,0,0,1,0,480V20A20,20,0,0,1,20,0Z" transform="translate(36 28)" fill="#fff"/>
+    </g>
+    <g id="Rectangle_1535" data-name="Rectangle 1535" transform="translate(2590 3660)" fill="#fff" stroke="#303043" stroke-width="1" stroke-dasharray="3" opacity="0.5">
+      <rect width="570" height="454" rx="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="569" height="453" rx="15.5" fill="none"/>
+    </g>
+    <text id="AllyAI_Demand_Generation" data-name="AllyAI Demand 
+Generation" transform="translate(2687 3732)" fill="#303043" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-46" y="0">AllyAI Demand </tspan><tspan x="-34" y="15">Generation</tspan></text>
+    <text id="AllyAI_Product_Market_Research" data-name="AllyAI Product
+Market Research" transform="translate(2815 3732)" fill="#303043" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-42" y="0">AllyAI Product</tspan><tspan x="-51" y="15">Market Research</tspan></text>
+    <text id="AllyAI_RFP" data-name="AllyAI
+RFP" transform="translate(2913 3732)" fill="#303043" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-17" y="0">AllyAI</tspan><tspan x="-10" y="18">RFP</tspan></text>
+    <text id="AllyAI_GTM_Enablement" data-name="AllyAI GTM
+Enablement" transform="translate(2997 3732)" fill="#303043" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-32" y="0">AllyAI GTM</tspan><tspan x="-36" y="15">Enablement</tspan></text>
+    <text id="AllyAI_GTM_Insights" data-name="AllyAI GTM
+Insights" transform="translate(3095 3732)" fill="#303043" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-32" y="0">AllyAI GTM</tspan><tspan x="-24" y="15">Insights</tspan></text>
+    <g id="Group_6738" data-name="Group 6738" transform="translate(0 11)">
+      <rect id="Rectangle_1537" data-name="Rectangle 1537" width="488" height="86" rx="8" transform="translate(2640 3865)" fill="#fff5ed"/>
+      <text id="Regular_Matching_ML_Matching_KNN_and_others_" data-name="Regular Matching
+ML Matching   (KNN and others)" transform="translate(2655 3915)" fill="#111" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Regular Matching</tspan><tspan x="0" y="20" xml:space="preserve">ML Matching   (KNN and others)</tspan></text>
+      <text id="Semantic_Matching_Ontology_Matching" data-name="Semantic Matching
+Ontology Matching" transform="translate(2870 3915)" fill="#111" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Semantic Matching</tspan><tspan x="0" y="20">Ontology Matching</tspan></text>
+      <text id="Semantic_Search_and_ML_Mapping" data-name="Semantic Search and ML Mapping" transform="translate(2884 3888)" fill="#303043" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-104" y="0">Semantic Search and ML Mapping</tspan></text>
+    </g>
+    <g id="Group_6737" data-name="Group 6737" transform="translate(0 39)">
+      <rect id="Rectangle_1536" data-name="Rectangle 1536" width="488" height="104" rx="8" transform="translate(2640 3725)" fill="#fff5ed"/>
+      <text id="Generative_AI_Win_Loss_Analytics_Cost_Utilization_Groupers" data-name="Generative AI
+Win/Loss Analytics
+Cost / Utilization Groupers" transform="translate(2655 3775)" fill="#111" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Generative AI</tspan><tspan x="0" y="20">Win/Loss Analytics</tspan><tspan x="0" y="40">Cost / Utilization Groupers</tspan></text>
+      <text id="Strategy_builder_Predictive_Models_ML_Insights_" data-name="Strategy builder	
+Predictive Models
+ML Insights  " transform="translate(2870 3775)" fill="#111" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Strategy builder	</tspan><tspan x="0" y="20">Predictive Models</tspan><tspan x="0" y="40" xml:space="preserve">ML Insights  </tspan></text>
+      <text id="AI_Analytics_Services" data-name="AI &amp; Analytics Services" transform="translate(2884 3748)" fill="#303043" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-70" y="0">AI &amp; Analytics Services</tspan></text>
+    </g>
+    <g id="Group_6739" data-name="Group 6739" transform="translate(0 4)">
+      <rect id="Rectangle_1538" data-name="Rectangle 1538" width="488" height="124" rx="8" transform="translate(2640 3966)" fill="#fff5ed"/>
+      <text id="ETL_Identity_Mgmt_MDM_Parsers" data-name="ETL
+Identity Mgmt
+MDM
+Parsers" transform="translate(2655 4016)" fill="#111" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">ETL</tspan><tspan x="0" y="20">Identity Mgmt</tspan><tspan x="0" y="40">MDM</tspan><tspan x="0" y="60">Parsers</tspan></text>
+      <text id="Integrations_with_CRM_and_Contacts_DBs_Data_Quality_Mgmt_Data_Reports_Monitoring_Alerts_._" data-name="Integrations with CRM and Contacts DBs
+Data Quality Mgmt
+Data Reports
+Monitoring &amp; Alerts …. " transform="translate(2870 4016)" fill="#111" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Integrations with CRM and Contacts DBs</tspan><tspan x="0" y="20">Data Quality Mgmt</tspan><tspan x="0" y="40">Data Reports</tspan><tspan x="0" y="60">Monitoring &amp; Alerts …. </tspan></text>
+      <text id="Contacts_Data_Normalization" data-name="Contacts Data &amp; Normalization" transform="translate(2884 3989)" fill="#303043" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-95" y="0">Contacts Data &amp; Normalization</tspan></text>
+    </g>
+    <rect id="Rectangle_1539" data-name="Rectangle 1539" width="209" height="19" transform="translate(2771 4105)" fill="#fff"/>
+    <text id="Multi-tenant_Isolated_Network" data-name="Multi-tenant/Isolated Network" transform="translate(2798 4118)" fill="#303043" font-size="10" font-family="Poppins-Medium, Poppins" font-weight="500" opacity="0.5"><tspan x="0" y="0">Multi-tenant/Isolated Network</tspan></text>
+    <g id="Group_6741" data-name="Group 6741" transform="translate(0 6)">
+      <text id="Data_Flow" data-name="Data Flow" transform="translate(2610 3948) rotate(-90)" fill="#303043" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Data Flow</tspan></text>
+      <g id="Group_6740" data-name="Group 6740" transform="translate(6 -21.5)">
+        <path id="Path_3750" data-name="Path 3750" d="M0,7.853V0L6,3.927Z" transform="translate(2611.574 3829.5) rotate(-90)" fill="#303043"/>
+        <line id="Line_86" data-name="Line 86" y2="237" transform="translate(2615.5 3829.5)" fill="none" stroke="#303043" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Competitor" transform="translate(4107 -706)" opacity="0.8">
+      <rect id="Rectangle_1504" data-name="Rectangle 1504" width="36" height="36" transform="translate(-1030 4384)" fill="#06b4bb" opacity="0"/>
+      <g id="Group_6635" data-name="Group 6635" transform="translate(-1024.559 4384.81)">
+        <path id="Path_3696" data-name="Path 3696" d="M38.6,52.148a.773.773,0,0,1-.773-.773v-8.2a.773.773,0,0,1,.328-.634,8.641,8.641,0,1,0-13.906-6.853.773.773,0,0,1-.108.386L21.47,40.609l1.7.626a.773.773,0,0,1,.51.722v4.083a.8.8,0,0,0,.8.8h4.709a.773.773,0,0,1,.773.773v3.766a.773.773,0,0,1-1.545,0V48.381H24.475a2.345,2.345,0,0,1-2.341-2.341V42.5l-2.067-.773a.777.777,0,0,1-.4-1.12L22.7,35.448a10.19,10.19,0,1,1,16.668,8.1v7.83A.773.773,0,0,1,38.6,52.148Z" transform="translate(-19.563 -17.768)" fill="#06b4bb" stroke="#06b4bb" stroke-width="0.6"/>
+        <path id="Path_3697" data-name="Path 3697" d="M52.833,10.908a.773.773,0,0,1-.773-.773V6.273a.773.773,0,0,1,1.545,0v3.863A.773.773,0,0,1,52.833,10.908Z" transform="translate(-39.507 -5.5)" fill="#06b4bb" stroke="#06b4bb" stroke-width="0.6"/>
+        <path id="Path_3698" data-name="Path 3698" d="M64.593,13.348a.688.688,0,0,1-.263-.046.773.773,0,0,1-.464-.989l1.321-3.631a.773.773,0,0,1,1.452.529l-1.321,3.631A.773.773,0,0,1,64.593,13.348Z" transform="translate(-46.724 -7.141)" fill="#06b4bb" stroke="#06b4bb" stroke-width="0.6"/>
+        <path id="Path_3699" data-name="Path 3699" d="M74.934,20.386a.771.771,0,0,1-.591-1.267l2.48-2.959a.773.773,0,0,1,1.186.993l-2.484,2.959A.773.773,0,0,1,74.934,20.386Z" transform="translate(-53.071 -11.873)" fill="#06b4bb" stroke="#06b4bb" stroke-width="0.6"/>
+        <path id="Path_3700" data-name="Path 3700" d="M26.767,20.345a.773.773,0,0,1-.595-.274l-2.5-2.959a.773.773,0,1,1,1.182-.993l2.484,2.959a.773.773,0,0,1-.576,1.267Z" transform="translate(-21.962 -11.832)" fill="#06b4bb" stroke="#06b4bb" stroke-width="0.6"/>
+        <path id="Path_3701" data-name="Path 3701" d="M39,13.42a.773.773,0,0,1-.726-.506L36.949,9.283A.773.773,0,0,1,38.4,8.754l1.325,3.631a.773.773,0,0,1-.456.989A.711.711,0,0,1,39,13.42Z" transform="translate(-30.213 -7.212)" fill="#06b4bb" stroke="#06b4bb" stroke-width="0.6"/>
+        <path id="Path_3702" data-name="Path 3702" d="M49.226,43.154H45.363a.773.773,0,0,1-.773-.773V41.03a4.257,4.257,0,1,1,5.408,0v1.352A.773.773,0,0,1,49.226,43.154Zm-3.09-1.545h2.318v-.773a1.159,1.159,0,0,1,.467-.927A2.681,2.681,0,0,0,50,37.727a2.758,2.758,0,0,0-2.627-2.681,2.7,2.7,0,0,0-1.7,4.863,1.159,1.159,0,0,1,.467.927ZM49.851,41.138Z" transform="translate(-33.968 -22.68)" fill="#06b4bb" stroke="#06b4bb" stroke-width="0.6"/>
+        <path id="Path_3703" data-name="Path 3703" d="M52.037,62.045h-2.7a.773.773,0,1,1,0-1.545h2.7a.773.773,0,0,1,0,1.545Z" transform="translate(-37.359 -39.254)" fill="#06b4bb" stroke="#06b4bb" stroke-width="0.6"/>
+      </g>
+    </g>
+    <g id="Dynamic_Learning" data-name="Dynamic Learning" transform="translate(3790 -716.01)" opacity="0.8">
+      <rect id="Rectangle_1506" data-name="Rectangle 1506" width="36" height="36" transform="translate(-901 4394.01)" fill="#fff" opacity="0"/>
+      <g id="Group_6642" data-name="Group 6642" transform="translate(-898.749 4397.001)">
+        <rect id="Rectangle_1507" data-name="Rectangle 1507" width="3.113" height="8.302" transform="translate(1.619 21.793)" fill="#ffb202" stroke="#fff" stroke-width="0.5"/>
+        <path id="Path_3709" data-name="Path 3709" d="M32.458,27.164a1.557,1.557,0,0,0-2.2,0L19.88,37.542l2.2,2.2,9.278-9.278,5.127,5.127a1.557,1.557,0,0,0,2.2,0l9.278-9.278v6.1h3.113V22.557A1.557,1.557,0,0,0,49.519,21H39.66v3.113h6.1l-8.178,8.178Z" transform="translate(-19.88 -21)" fill="#ffb202" stroke="#fff" stroke-width="0.5"/>
+        <rect id="Rectangle_1508" data-name="Rectangle 1508" width="3.113" height="12.453" transform="translate(9.921 17.642)" fill="#ffb202" stroke="#fff" stroke-width="0.5"/>
+        <rect id="Rectangle_1509" data-name="Rectangle 1509" width="3.113" height="8.302" transform="translate(18.224 21.793)" fill="#ffb202" stroke="#fff" stroke-width="0.5"/>
+        <rect id="Rectangle_1510" data-name="Rectangle 1510" width="3.113" height="14.529" transform="translate(26.526 15.567)" fill="#ffb202" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="Insight_Mining" data-name="Insight Mining" transform="translate(9542 5)" opacity="0.8">
+      <rect id="Rectangle_1489" data-name="Rectangle 1489" width="36" height="36" transform="translate(-6751 3673)" fill="#e01538" opacity="0"/>
+      <path id="mystery_FILL0_wght400_GRAD0_opsz48" d="M93.944-854.436a11.206,11.206,0,0,0,8.231-3.389,11.206,11.206,0,0,0,3.389-8.231,11.206,11.206,0,0,0-3.389-8.231,11.206,11.206,0,0,0-8.231-3.389,11.206,11.206,0,0,0-8.231,3.389,11.206,11.206,0,0,0-3.389,8.231,11.206,11.206,0,0,0,3.389,8.231A11.206,11.206,0,0,0,93.944-854.436ZM93.944-866.056Zm0,6.2a9.818,9.818,0,0,1-5.713-1.724,9.63,9.63,0,0,1-3.583-4.474,9.775,9.775,0,0,1,3.583-4.454,9.741,9.741,0,0,1,5.713-1.743,9.678,9.678,0,0,1,5.675,1.743,10.03,10.03,0,0,1,3.622,4.454,9.876,9.876,0,0,1-3.622,4.474A9.755,9.755,0,0,1,93.944-859.858Zm0-2.324a7.7,7.7,0,0,0,3.912-1.026,7.3,7.3,0,0,0,2.789-2.847,7.515,7.515,0,0,0-2.789-2.828,7.588,7.588,0,0,0-3.912-1.046,7.661,7.661,0,0,0-3.951,1.046,7.515,7.515,0,0,0-2.789,2.828,7.3,7.3,0,0,0,2.789,2.847A7.773,7.773,0,0,0,93.944-862.182Zm0-1.937a1.889,1.889,0,0,0,1.356-.562,1.839,1.839,0,0,0,.581-1.375,1.858,1.858,0,0,0-.581-1.356,1.858,1.858,0,0,0-1.356-.581,1.839,1.839,0,0,0-1.375.581,1.889,1.889,0,0,0-.562,1.356,1.87,1.87,0,0,0,.562,1.375A1.87,1.87,0,0,0,93.944-864.119Zm0,12.007a13.489,13.489,0,0,1-5.442-1.1,14.172,14.172,0,0,1-4.416-2.982,14.175,14.175,0,0,1-2.982-4.416,13.49,13.49,0,0,1-1.1-5.442,13.4,13.4,0,0,1,1.1-5.4,14.413,14.413,0,0,1,2.982-4.435,14.009,14.009,0,0,1,4.416-3,13.491,13.491,0,0,1,5.442-1.1,13.4,13.4,0,0,1,5.4,1.1,14.243,14.243,0,0,1,4.435,3,14.243,14.243,0,0,1,3,4.435,13.4,13.4,0,0,1,1.1,5.4,13.58,13.58,0,0,1-.872,4.88,14.493,14.493,0,0,1-2.421,4.144l6.352,6.391-1.627,1.627L102.93-855.4a14.493,14.493,0,0,1-4.145,2.421A13.472,13.472,0,0,1,93.944-852.112Z" transform="translate(-6827.974 4555.027)" fill="#e01538"/>
+    </g>
+    <g id="demand" transform="translate(12289 4010)" opacity="0.8">
+      <rect id="Rectangle_1314" data-name="Rectangle 1314" width="36" height="36" transform="translate(-9620 -332)" fill="#b85bcf" opacity="0"/>
+      <path id="lightbulb_FILL0_wght400_GRAD0_opsz48" d="M190.157-869.34a2.647,2.647,0,0,1-1.947-.8,2.648,2.648,0,0,1-.8-1.947H192.9a2.648,2.648,0,0,1-.8,1.947A2.647,2.647,0,0,1,190.157-869.34Zm-5.485-4.841v-2.031h10.969v2.031Zm.169-4.1a11.109,11.109,0,0,1-3.538-3.64,9.425,9.425,0,0,1-1.3-4.926,9.762,9.762,0,0,1,3.013-7.144A9.762,9.762,0,0,1,190.157-897a9.762,9.762,0,0,1,7.144,3.013,9.762,9.762,0,0,1,3.013,7.144,9.52,9.52,0,0,1-1.286,4.926,10.836,10.836,0,0,1-3.555,3.64Zm.745-2.031h9.175a7.89,7.89,0,0,0,2.573-2.81,7.616,7.616,0,0,0,.948-3.724,7.824,7.824,0,0,0-2.387-5.739,7.824,7.824,0,0,0-5.739-2.387,7.824,7.824,0,0,0-5.739,2.387,7.824,7.824,0,0,0-2.387,5.739,7.616,7.616,0,0,0,.948,3.724A7.782,7.782,0,0,0,185.586-880.309ZM190.157-880.309Z" transform="translate(-9792 567)" fill="#b85bcf"/>
+    </g>
+    <g id="Group_6744" data-name="Group 6744" transform="translate(0 103)" opacity="0.8">
+      <rect id="Rectangle_1506-2" data-name="Rectangle 1506" width="36" height="36" transform="translate(2973 3575)" fill="coral" opacity="0"/>
+      <g id="Group_6743" data-name="Group 6743" transform="translate(2975.25 3577.25)">
+        <path id="Path_3751" data-name="Path 3751" d="M17.2,15.155A1.473,1.473,0,0,1,15.56,14.8a.6.6,0,0,0-.392-.161.553.553,0,0,0-.391.164l-2.163,2.183a.554.554,0,0,0,0,.783,1.465,1.465,0,0,1-1.042,2.549.554.554,0,0,0-.551.556l.016,3.039a.553.553,0,0,0,.542.55,1.547,1.547,0,0,1,1.44.952,1.471,1.471,0,0,1-.362,1.621.554.554,0,0,0,0,.783l2.183,2.163a.553.553,0,0,0,.39.161h0a.553.553,0,0,0,.391-.164A1.465,1.465,0,0,1,18.18,31.02a.554.554,0,0,0,.554.551h0l3.073-.014A.554.554,0,0,0,22.361,31,1.465,1.465,0,0,1,24.9,29.935a.529.529,0,0,0,.392.161.553.553,0,0,0,.391-.164l2.163-2.183a.554.554,0,0,0,0-.783,1.465,1.465,0,0,1,1.042-2.549.554.554,0,0,0,.551-.556l-.014-3.073a.554.554,0,0,0-.554-.551h-.011A1.465,1.465,0,0,1,27.8,17.7a.554.554,0,0,0,0-.783l-2.183-2.163a.553.553,0,0,0-.39-.161h0a.553.553,0,0,0-.391.164,1.465,1.465,0,0,1-2.548-1.041.554.554,0,0,0-.554-.551h0l-3.073.014a.554.554,0,0,0-.551.556A1.474,1.474,0,0,1,17.2,15.155Zm1.954-.873,2.073-.01a2.556,2.556,0,0,0,3.959,1.618l1.472,1.458a2.556,2.556,0,0,0,1.656,3.944l.01,2.073a2.556,2.556,0,0,0-1.618,3.959L25.248,28.8A2.556,2.556,0,0,0,21.3,30.452l-2.073.01a2.564,2.564,0,0,0-2.509-2.071,2.58,2.58,0,0,0-1.45.453L13.8,27.385A2.545,2.545,0,0,0,14.05,25a2.607,2.607,0,0,0-1.9-1.582l-.011-2.05a2.556,2.556,0,0,0,1.618-3.959l1.458-1.472a2.556,2.556,0,0,0,3.944-1.655ZM6.94,27.037a.553.553,0,0,1-.333.708.552.552,0,0,1-.708-.333,15.242,15.242,0,0,1,10.123-19.8l-1.472-.75a.554.554,0,1,1,.5-.986l2.821,1.437c.012.006.021.014.033.021a.42.42,0,0,1,.089.066c.012.011.024.022.035.034a.487.487,0,0,1,.036.045c.01.014.02.027.029.042a.5.5,0,0,1,.026.05.428.428,0,0,1,.02.047c.007.019.011.038.016.057s.008.022.009.033,0,.01,0,.015a.553.553,0,0,1,0,.06c0,.017,0,.033,0,.05a.527.527,0,0,1-.006.053c0,.019-.005.037-.01.056s-.01.03-.015.045a.486.486,0,0,1-.023.059s0,.009-.005.013l-1.437,2.821a.554.554,0,1,1-.986-.5l.9-1.773A14.135,14.135,0,0,0,6.94,27.037ZM31.8,31.3a.554.554,0,0,1,.065.78A15.223,15.223,0,0,1,9.652,33.2l.087,1.652a.554.554,0,0,1-.524.582H9.186a.554.554,0,0,1-.553-.525l-.166-3.162c0-.011,0-.022,0-.033a.5.5,0,0,1,0-.062c0-.017.005-.033.009-.049a.558.558,0,0,1,.014-.055c.005-.016.012-.032.019-.048s.015-.034.024-.051.018-.029.028-.044.021-.03.033-.044.026-.028.04-.041.015-.018.025-.025l.013-.009a.516.516,0,0,1,.049-.034c.014-.009.028-.019.043-.026s.033-.014.05-.021.034-.014.052-.019.032-.007.048-.01a.554.554,0,0,1,.059-.009l.015,0L12.153,31a.554.554,0,1,1,.058,1.106l-1.982.1a14.112,14.112,0,0,0,20.789-.849A.553.553,0,0,1,31.8,31.3ZM37,25.965,34.343,27.69a.531.531,0,0,1-.091.042.512.512,0,0,1-.049.023.549.549,0,0,1-.162.025.557.557,0,0,1-.105-.011h-.01c-.01,0-.02-.007-.03-.01s-.028-.006-.042-.011l-.014-.007a.556.556,0,0,1-.055-.027c-.015-.008-.03-.015-.044-.024s-.029-.021-.044-.033-.028-.022-.041-.035a.5.5,0,0,1-.034-.039c-.012-.014-.024-.028-.035-.043l-.01-.012-1.724-2.655a.554.554,0,0,1,.929-.6l1.084,1.669A14.133,14.133,0,0,0,22.741,8.351a.554.554,0,0,1,.2-1.09,15.231,15.231,0,0,1,12.07,18.677l1.388-.9a.554.554,0,0,1,.6.929Zm-21.2-3.6a4.429,4.429,0,1,0,4.429-4.429A4.434,4.434,0,0,0,15.8,22.367Zm4.429-3.322a3.322,3.322,0,1,1-3.322,3.322A3.326,3.326,0,0,1,20.23,19.045Z" transform="translate(-5 -5.815)" fill="coral" stroke="coral" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
