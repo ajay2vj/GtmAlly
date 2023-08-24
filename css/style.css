@@ -6896,9 +6896,35 @@ button.btn.btn-link.btn_bold.collapsed {
 	color: #ff5c29;
 	opacity: 1;
 }
-.about_slider .slick-container .client-slider .slide img {
-	width: 146px;
+.about_slider .slick-container .client-slider .slide img.bcg {
+	width: 107px !important;
 	height: 48px;
+	position: relative;
+	right: -38px;
+}
+.about_slider .slick-container .client-slider .slide img.gainsight {
+	width: 191px !important;
+	height: 48px;
+	position: relative;
+	right: 32px;
+}
+.about_slider .slick-container .client-slider .slide img.innovaccer {
+	width: 233px !important;
+	height: 48px;
+	position: relative;
+	right: 32px;
+}
+.about_slider .slick-container .client-slider .slide img.myntra {
+	width: 122px !important;
+	height: 48px;
+	position: relative;
+	right: -30px;
+}
+.about_slider .slick-container .client-slider .slide img.flipkart {
+	width: 183px !important;
+	height: 48px;
+	position: relative;
+	right: 20px;
 }
 .about_team h4 {
 	font: normal normal 600 40px/54px Poppins;
@@ -6998,9 +7024,30 @@ button.btn.btn-link.btn_bold.collapsed {
 		color: #ff5c29;
 		opacity: 1;
 	}
-	.about_slider .slick-container .client-slider .slide img {
+	.about_slider .slick-container .client-slider .slide img.bcg {
+		width: 122px !important;
+		height: 48px;
+		position: initial !important;
+	}
+	.about_slider .slick-container .client-slider .slide img.gainsight {
 		width: 148px !important;
 		height: 48px;
+		position: initial !important;
+	}
+	.about_slider .slick-container .client-slider .slide img.innovaccer {
+		width: 148px !important;
+		height: 48px;
+		position: initial !important;
+	}
+	.about_slider .slick-container .client-slider .slide img.myntra {
+		width: 148px !important;
+		height: 48px;
+		position: initial !important;
+	}
+	.about_slider .slick-container .client-slider .slide img.flipkart {
+		width: 132px !important;
+		height: 48px;
+		position: initial !important;
 	}
 	.leadership_box h4 {
 		font: normal normal 500 18px/41px Poppins;
