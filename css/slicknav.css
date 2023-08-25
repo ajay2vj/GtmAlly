@@ -138,9 +138,11 @@ ul.submenu li a {
 	color: #fff;
 	margin: 0;
 	height: 100vh;
+	overflow: auto;
 	padding-top: 12px;
 	font-size: 0.875em;
 }
+
 .slicknav_nav ul {
 	margin: 0 0 0 20px;
 }
