@@ -7135,3 +7135,32 @@ img.platform-image {
 	font-weight: bold;
 	color: #000;
 }
+.card-body::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #C5E1FD;
+	width: 0px;
+	height: 3px;
+	border-radius: 8px;
+	animation: progres 5s infinite linear;
+}
+@keyframes progres {
+	0% {
+		width: 0%;
+	}
+	25% {
+		width: 50%;
+	}
+	50% {
+		width: 75%;
+	}
+	75% {
+		width: 85%;
+	}
+	100% {
+		width: 100%;
+	}
+}
