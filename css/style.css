@@ -6576,16 +6576,14 @@ h4.products-benefits {
 	display: none;
 }
 img.rfp-image {
-	padding-top: 120px;
-	width: 496px;
-	height: 510px;
+	padding-top: 85px;
 	margin-left: 50px;
 }
 img.product_research {
-	margin-top: 145px;
+	margin-top: 85px;
 }
 img.product_demand {
-	margin-top: 100px;
+	margin-top: 85px;
 }
 /* media queries */
 @media (max-width: 767px) {
