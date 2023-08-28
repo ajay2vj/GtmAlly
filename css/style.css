@@ -6844,6 +6844,7 @@ button.btn.btn-link.btn_bold.collapsed {
 }
 .about_mission_area {
 	padding-top: 32px;
+	padding-bottom: 40px;
 }
 .about_mission_area .about_content h1 {
 	font: normal normal 600 40px/54px Poppins;
@@ -6992,8 +6993,23 @@ button.btn.btn-link.btn_bold.collapsed {
 		height: auto;
 		margin: 8px 0px 40px;
 	}
+	.about_mission_area {
+		padding-top: 32px;
+		padding-bottom: 0px;
+	}
 	.about_mission_area .about_content h1 {
+		font: normal normal 600 30px/44px Poppins;
+		letter-spacing: 0px;
+		color: #111111;
+		opacity: 1;
 		text-align: center;
+	}
+	.about_mission_area .about_content p {
+		font: normal normal normal 14px/24px Poppins;
+		letter-spacing: 0px;
+		color: #303043;
+		opacity: 1;
+		text-align: left;
 	}
 	.about_title_team h3 {
 		text-align: center;
@@ -7141,7 +7157,7 @@ img.platform-image {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background-color: #C5E1FD;
+	background-color: #c5e1fd;
 	width: 0px;
 	height: 3px;
 	border-radius: 8px;
