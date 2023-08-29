@@ -6577,7 +6577,6 @@ h4.products-benefits {
 }
 img.rfp-image {
 	padding-top: 85px;
-	margin-left: 50px;
 }
 img.product_research {
 	margin-top: 85px;
@@ -6874,8 +6873,13 @@ button.btn.btn-link.btn_bold.collapsed {
 }
 .about_meet_team ul li::before {
 	position: absolute;
-	content: "✔";
-	color: #ff5c29;
+	content: "";
+	background: url(../img/icons/tick.svg);
+	background-size: 18px 18px;
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	height: 25px;
+	width: 20px;
 	left: -14px;
 }
 .about_meet_team ul li {
@@ -7025,8 +7029,13 @@ button.btn.btn-link.btn_bold.collapsed {
 	}
 	.about_meet_team ul li::before {
 		position: absolute;
-		content: "✔";
-		color: #ff5c29;
+		content: "";
+		background: url(../img/icons/tick.svg);
+		background-size: 18px 14px;
+		background-repeat: no-repeat;
+		background-position: 0px 4px;
+		height: 25px;
+		width: 20px;
 		left: 28px;
 	}
 	.about_slider {
