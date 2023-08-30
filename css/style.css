@@ -5059,7 +5059,7 @@ h6 {
 @media (max-width: 767px) {
 	.select_container label.error {
 		position: absolute !important;
-		top: 320px !important;
+		top: 234px !important;
 	}
 	.form-select {
 		font: normal normal normal 14px/32px Poppins;

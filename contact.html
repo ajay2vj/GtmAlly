@@ -22,15 +22,15 @@
 		<link rel="stylesheet" href="css/intlTelInput.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
+	<style>
+		@media (max-width: 767px) {
+			.select_container label.error {
+				position: absolute !important;
+				top: 264px !important;
+			}
+		}
+	</style>
 	<body>
-		<!--[if lte IE 9]>
-			<p class="browserupgrade">
-				You are using an <strong>outdated</strong> browser. Please
-				<a href="https://browsehappy.com/">upgrade your browser</a> to improve
-				your experience and security.
-			</p>
-		<![endif]-->
-
 		<header>
 			<div class="header-area">
 				<div id="sticky-header" class="main-header-area">
@@ -184,17 +184,10 @@
 							<div class="contact_background contact_form_quote">
 								<div class="form_wrap">
 									<form action="#" method="post" id="myform">
+										<div>
+											<input type="fname" name="fname" placeholder="Name*" />
+										</div>
 										<div class="col_form">
-											<div>
-												<input type="fname" name="fname" placeholder="Name*" />
-											</div>
-											<div>
-												<input
-													type="lname"
-													name="lname"
-													placeholder="Last Name*"
-												/>
-											</div>
 											<div>
 												<input
 													type="text"
@@ -540,7 +533,7 @@
 														height: 44px;
 														width: auto;
 														margin-right: -2px;
-														margin-top: -7px;
+														margin-top: -8px;
 														border-bottom: 1px solid #e8e8e8;
 														font: normal normal 600 18px/36px Poppins;
 													"
@@ -553,7 +546,7 @@
 											type="sales_team"
 											name="sales_team"
 											placeholder="Size of Sales Team*"
-											style="margin-bottom: 15px"
+											style="margin-bottom: 35px"
 										/>
 										<p>
 											By submitting you agree to our <span>Terms of Use</span> &
