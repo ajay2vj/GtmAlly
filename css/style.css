@@ -6706,7 +6706,10 @@ img.product_demand {
 	margin: 36px 0px 0px;
 }
 .solution_banner_content {
-	margin-top: 100px;
+	margin-top: 60px;
+}
+.about_banner_content {
+	margin-top: 124px;
 }
 .solution_testimonial {
 	margin-bottom: 45px;
@@ -6739,6 +6742,12 @@ img.product_demand {
 	margin-top: 35px;
 }
 @media (max-width: 767px) {
+	.solution_banner_content {
+		margin-top: 100px;
+	}
+	.about_banner_content {
+		margin-top: 100px;
+	}
 	.solution_banner_content .section_title h3 {
 		text-align: left;
 		font: normal normal 600 32px/44px Poppins;
