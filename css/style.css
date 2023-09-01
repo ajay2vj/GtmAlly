@@ -7218,3 +7218,19 @@ img.platform-image {
 		margin: 0px;
 	}
 }
+.card_1 img,
+.card_2 img,
+.card_3 img,
+.card_4 img,
+.card_5 img,
+.card_6 img {
+	display: none;
+}
+.card_1.active img,
+.card_2.active img,
+.card_3.active img,
+.card_4.active img,
+.card_5.active img,
+.card_6.active img {
+	display: block;
+}
