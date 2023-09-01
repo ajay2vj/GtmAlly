@@ -431,7 +431,9 @@
 			}
 		});
 		$(".btn_toggle_1").attr("aria-expanded", "true");
-
+		$(window).on("load", function () {
+			document.contact_form.reset();
+		});
 		//brand-active
 		$(".brand-active").owlCarousel({
 			loop: true,
