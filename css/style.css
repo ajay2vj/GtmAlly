@@ -2320,7 +2320,6 @@ div#customNav {
 /* line 7, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
 .accordion_area .accordion_thumb img {
 	width: 100%;
-	height: 450px;
 }
 
 /* line 12, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
@@ -7198,21 +7197,23 @@ img.platform-image {
 	}
 }
 .submenu_heading {
-	font-weight: bold;
+	font-weight: 500;
 	padding: 10px 0px;
 	color: #000;
+	font-size: 16px;
 }
 .desktop-menu {
 	display: grid;
 	grid-template-columns: auto auto;
-	gap: 30px;
+	gap: 40px;
 }
 @media (max-width: 767px) {
 	.desktop-menu {
 		display: initial;
 	}
 	.submenu_heading {
-		font-weight: bold;
+		font-size: 18px;
+		font-weight: 500;
 		padding: 0px 0px;
 		color: #000;
 		margin: 0px;
