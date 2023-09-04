@@ -21,6 +21,26 @@
 		<link rel="stylesheet" href="css/slicknav.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
+	<style>
+		span#selectedCountryCode {
+			height: 44px;
+			width: auto;
+			margin-right: -1px;
+			margin-top: -8px;
+			border-bottom: 1px solid #e8e8e8;
+			font: normal normal 600 18px/36px Poppins;
+		}
+		@media (max-width: 767px) {
+			span#selectedCountryCode {
+				height: 43px !important;
+				width: auto;
+				margin-right: -1px;
+				margin-top: -7px !important;
+				border-bottom: 1px solid #e8e8e8;
+				font: normal normal 600 18px/36px Poppins;
+			}
+		}
+	</style>
 	<body>
 		<!--[if lte IE 9]>
 			<p class="browserupgrade">
@@ -817,17 +837,7 @@
 											<option value="+260">Zambia +260</option>
 											<option value="+263">Zimbabwe +263</option>
 										</select>
-										<span
-											style="
-												height: 44px;
-												width: auto;
-												margin-right: 1px;
-												margin-top: -8px;
-												border-bottom: 1px solid #e8e8e8;
-												font: normal normal 600 18px/36px Poppins;
-											"
-											id="selectedCountryCode"
-										></span>
+										<span id="selectedCountryCode"></span>
 										<input type="text" name="mobile_code" />
 									</div>
 								</div>

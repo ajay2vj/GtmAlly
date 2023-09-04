@@ -28,10 +28,26 @@
 				position: absolute !important;
 				top: 264px !important;
 			}
+			span#selectedCountryCode {
+				height: 43px !important;
+				width: auto;
+				margin-right: -1px;
+				margin-top: -7px !important;
+				border-bottom: 1px solid #e8e8e8;
+				font: normal normal 600 18px/36px Poppins;
+			}
 		}
 		.select_container label.error {
 			position: absolute !important;
-			top: 364px !important;
+			top: 364px;
+		}
+		span#selectedCountryCode {
+			height: 44px;
+			width: auto;
+			margin-right: -1px;
+			margin-top: -8px;
+			border-bottom: 1px solid #e8e8e8;
+			font: normal normal 600 18px/36px Poppins;
 		}
 	</style>
 	<body>
@@ -548,17 +564,7 @@
 													<option value="+260">Zambia +260</option>
 													<option value="+263">Zimbabwe +263</option>
 												</select>
-												<span
-													style="
-														height: 44px;
-														width: auto;
-														margin-right: 1px;
-														margin-top: -8px;
-														border-bottom: 1px solid #e8e8e8;
-														font: normal normal 600 18px/36px Poppins;
-													"
-													id="selectedCountryCode"
-												></span>
+												<span id="selectedCountryCode"></span>
 												<input type="text" name="mobile_code" />
 											</div>
 										</div>
