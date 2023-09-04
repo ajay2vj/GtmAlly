@@ -106,11 +106,21 @@
 				);
 				var $nav = $(".slicknav_menu");
 				$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+
+				var $slicknav_nav = $(".slicknav_nav");
+				$slicknav_nav.toggleClass(
+					"active_slicknav_nav",
+					$(this).scrollTop() > $slicknav_nav.height()
+				);
+				var $body = $("body");
+				$body.toggleClass("active_body", $(this).scrollTop() > $body.height());
 			});
 		});
 		$(document).on("click", ".slicknav_btn", function (e) {
 			//toggle class to ul
 			$(this).closest(".slicknav_menu").toggleClass("bg_color");
+			$("body").toggleClass("body_class");
+			$(".banner_area").toggleClass("banner_opacity");
 		});
 		// review-active
 		$(".testmonial_active").owlCarousel({

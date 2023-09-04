@@ -137,10 +137,13 @@ ul.submenu li a {
 	clear: both;
 	color: #fff;
 	margin: 0;
-	height: 100vh;
+	height: 85vh;
 	overflow: auto;
 	padding-top: 12px;
 	font-size: 0.875em;
+}
+.active_slicknav_nav {
+	height: 91vh !important;
 }
 
 .slicknav_nav ul {

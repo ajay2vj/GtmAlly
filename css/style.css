@@ -660,6 +660,15 @@ h3 {
 	background-color: #fff !important;
 	transition: background-color 200ms linear;
 }
+.body_class {
+	overflow: hidden;
+}
+.banner_opacity {
+	opacity: 0;
+}
+.active_body {
+	opacity: 0;
+}
 @media (max-width: 767px) {
 	/* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_header.scss */
 	.header-area {
