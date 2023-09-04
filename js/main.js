@@ -264,7 +264,10 @@
 			rules: {
 				fname: "required",
 				lname: "required",
-				wemail: "required",
+				wemail: {
+					required: true,
+					email: true,
+				},
 				mobile_code: "required",
 				sales_team: "required",
 			},
@@ -276,6 +279,7 @@
 					required: "Please complete this required field.",
 				},
 				wemail: {
+					pattren: /^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/,
 					required: "Please complete this required field.",
 				},
 				mobile_code: {
