@@ -30,26 +30,8 @@
 			border-bottom: 1px solid #e8e8e8;
 			font: normal normal 600 18px/36px Poppins;
 		}
-		@media (max-width: 767px) {
-			span#selectedCountryCode {
-				height: 43px;
-				width: auto;
-				margin-right: -1px;
-				margin-top: -7px !important;
-				border-bottom: 1px solid #e8e8e8;
-				font: normal normal 600 18px/36px Poppins;
-			}
-		}
 	</style>
 	<body>
-		<!--[if lte IE 9]>
-			<p class="browserupgrade">
-				You are using an <strong>outdated</strong> browser. Please
-				<a href="https://browsehappy.com/">upgrade your browser</a> to improve
-				your experience and security.
-			</p>
-		<![endif]-->
-
 		<header>
 			<div class="header-area">
 				<div id="sticky-header" class="main-header-area">
@@ -656,7 +638,9 @@
 											<option value="+263">Zimbabwe +263</option>
 										</select>
 										<span id="selectedCountryCode"></span>
-										<input type="text" name="mobile_code" />
+										<div>
+											<input type="text" name="mobile_code" />
+										</div>
 									</div>
 								</div>
 								<input

@@ -5071,14 +5071,10 @@ h6 {
 	top: -16px;
 }
 .select_container label.error {
-	position: absolute !important;
-	top: 140px;
+	position: relative;
+	left: -77px;
 }
 @media (max-width: 767px) {
-	.select_container label.error {
-		position: absolute !important;
-		top: 234px !important;
-	}
 	.form-select {
 		font: normal normal normal 14px/32px Poppins;
 	}
@@ -6816,9 +6812,6 @@ img.product_demand {
 		letter-spacing: 0px;
 		color: #303043;
 		opacity: 1;
-	}
-	span#selectedCountryCode {
-		margin-top: -7px !important;
 	}
 }
 button.btn.btn-link.btn_bold {
