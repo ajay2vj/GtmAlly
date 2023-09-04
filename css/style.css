@@ -2161,6 +2161,10 @@ div#customNav {
 		color: #303043;
 		opacity: 1;
 	}
+	.mobile_accordion .btn {
+		margin: 5px 0px !important;
+		padding: 0px !important;
+	}
 }
 
 /* line 11, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
@@ -2227,20 +2231,20 @@ div#customNav {
 @media (max-width: 767px) {
 	/* line 65, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
 	#accordion h5 button.btn.btn-link:after {
-		left: 90% !important;
+		left: 93% !important;
 		background-image: url("../img/icons/mobile-arrow-up.svg") !important;
 	}
 	#accordion h5 button.btn.btn-link.collapsed:after {
-		left: 90% !important;
+		left: 93% !important;
 		background-image: url("../img/icons/mobile-arrow-down.svg") !important;
 	}
 	.mobile_accordion h5 button.btn.btn-link:after {
-		left: 90% !important;
+		left: 93% !important;
 		top: 8px !important;
 		background-image: url("../img/icons/mobile-arrow-up.svg") !important;
 	}
 	.mobile_accordion h5 button.btn.btn-link.collapsed:after {
-		left: 90% !important;
+		left: 93% !important;
 		top: 8px !important;
 		background-image: url("../img/icons/mobile-arrow-down.svg") !important;
 	}
@@ -6668,6 +6672,11 @@ img.product_demand {
 		position: absolute;
 		top: 75px;
 	}
+	.active_breadcrumb {
+		position: relative !important;
+		top: -24px !important;
+		margin-bottom: -10px !important;
+	}
 	.home_banner_area .single_slider .slider_text {
 		margin-top: 70px !important;
 	}
@@ -7172,7 +7181,7 @@ img.platform-image {
 	font-weight: bold;
 	color: #000;
 }
-.card-body::after {
+#accordion .card .card-body::after {
 	content: "";
 	position: absolute;
 	bottom: 0;

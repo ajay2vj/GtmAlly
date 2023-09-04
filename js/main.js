@@ -99,6 +99,11 @@
 					"active_mobile",
 					$(this).scrollTop() > $text_p.height()
 				);
+				var $breadcrumb = $(".breadcrumb");
+				$breadcrumb.toggleClass(
+					"active_breadcrumb",
+					$(this).scrollTop() > $breadcrumb.height()
+				);
 				var $nav = $(".slicknav_menu");
 				$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
 			});
