@@ -94,6 +94,11 @@
 		// scroll to bottom show nav color
 		$(function () {
 			$(document).scroll(function () {
+				var $text_p = $(".mobile_padding");
+				$text_p.toggleClass(
+					"active_mobile",
+					$(this).scrollTop() > $text_p.height()
+				);
 				var $nav = $(".slicknav_menu");
 				$nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
 			});
