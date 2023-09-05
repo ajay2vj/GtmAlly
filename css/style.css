@@ -695,7 +695,20 @@ h3 {
 		padding-top: 0;
 	}
 	.mobile_request {
-		display: none;
+		display: block !important;
+	}
+	.header-area .main-header-area .Appointment .book_btn a {
+		position: relative !important;
+		left: -13px !important;
+		top: 21px !important;
+		width: -webkit-fill-available;
+		text-transform: inherit !important;
+		text-align: center !important;
+		width: auto !important;
+	}
+	.mobile_accordion .btn {
+		margin: 5px 0px !important;
+		padding: 0px !important;
 	}
 }
 
@@ -6406,10 +6419,6 @@ h6 {
 	.slick-slide {
 		margin: 0px 60px !important;
 	}
-	.slick-container .client-slider .slide img {
-		width: 145px !important;
-		height: 48px !important;
-	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -6433,6 +6442,19 @@ h6 {
 
 .slick-slide img {
 	width: 100%;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.slick-container .client-slider .slide img {
+		width: 110 !important;
+		height: 48px;
+		right: 0px !important;
+	}
+	.mobile_accordion {
+		display: block !important;
+	}
+	.mobile_widget {
+		display: none !important;
+	}
 }
 .slick-container .client-slider .slide img {
 	width: 165px;
@@ -6926,31 +6948,31 @@ button.btn.btn-link.btn_bold.collapsed {
 	opacity: 1;
 }
 .about_slider .slick-container .client-slider .slide img.bcg {
-	width: 107px !important;
+	width: 107px;
 	height: 48px;
 	position: relative;
 	right: -38px;
 }
 .about_slider .slick-container .client-slider .slide img.gainsight {
-	width: 191px !important;
+	width: 191px;
 	height: 48px;
 	position: relative;
 	right: 32px;
 }
 .about_slider .slick-container .client-slider .slide img.innovaccer {
-	width: 233px !important;
+	width: 233px;
 	height: 48px;
 	position: relative;
 	right: 32px;
 }
 .about_slider .slick-container .client-slider .slide img.myntra {
-	width: 122px !important;
+	width: 122px;
 	height: 48px;
 	position: relative;
 	right: -30px;
 }
 .about_slider .slick-container .client-slider .slide img.flipkart {
-	width: 183px !important;
+	width: 183px;
 	height: 48px;
 	position: relative;
 	right: 20px;
