@@ -648,7 +648,7 @@ h3 {
 		z-index: 2;
 	}
 	.about_banner_content {
-		margin-top: 50px !important;
+		margin-top: 110px !important;
 	}
 	.breadcrumb {
 		margin-bottom: 30px !important;
@@ -659,10 +659,10 @@ h3 {
 		right: 0px !important;
 	}
 	.get_in_touch {
-		padding-top: 10% !important;
+		padding-top: 18% !important;
 	}
 	.solution_banner_content {
-		margin-top: 40px !important;
+		margin-top: 110px !important;
 	}
 	img.product_demand {
 		margin-top: 0px !important;
@@ -675,6 +675,10 @@ h3 {
 	}
 	.submenu_heading {
 		padding: 0px 0px !important;
+	}
+	.slicknav_nav li{
+		padding: 6px 0px !important;
+		margin: 0px 0px;
 	}
 }
 
@@ -2303,13 +2307,13 @@ div#customNav {
 	content: "";
 	position: absolute;
 	right: 0;
-	top: 23px;
+	top: 21px;
 	background-repeat: no-repeat;
 	background-image: url("../img/icons/accordion_up.svg");
 	display: flex;
 	justify-content: end;
 	left: 94%;
-	bottom: 0;
+	bottom: -3px;
 }
 
 @media (max-width: 767px) {
@@ -2339,13 +2343,13 @@ div#customNav {
 	content: "";
 	position: absolute;
 	right: 0;
-	top: 23px;
+	top: 21px;
 	background-repeat: no-repeat;
 	background-image: url("../img/icons/accordion_down.svg");
 	display: flex;
 	justify-content: end;
 	left: 94%;
-	bottom: 0;
+	bottom: -3px;
 }
 
 /* line 88, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion.scss */
@@ -2507,7 +2511,7 @@ div#customNav {
 		justify-content: center;
 	}
 	.about_banner_content {
-		margin-top: 50px !important;
+		margin-top: 120px !important;
 	}
 	.breadcrumb {
 		margin-bottom: 30px !important;
@@ -2517,10 +2521,10 @@ div#customNav {
 		height: auto !important;
 	}
 	.get_in_touch {
-		padding-top: 10% !important;
+		padding-top: 20% !important;
 	}
 	.solution_banner_content {
-		margin-top: 40px !important;
+		margin-top: 120px !important;
 	}
 	img.product_demand {
 		margin-top: 0px !important;
@@ -2548,6 +2552,10 @@ div#customNav {
 		color: #111111;
 		opacity: 1;
 	}
+	.slicknav_nav li {
+    padding: 6px 0px !important;
+    margin: 0px 0px;
+}
 }
 
 /* line 29, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
@@ -3100,15 +3108,15 @@ div#customNav {
 	.footer .footer_top .footer_widget {
 		margin-bottom: 30px;
 	}
-	.header-area {
-		position: initial !important;
+	.banner_area .single_slider .slider_text {
+		margin-top: 120px !important;
 	}
 }
 
 @media (min-width: 992px) and (max-width: 1198px) {
 	/* line 14, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
-	.header-area {
-		position: initial !important;
+	.banner_area .single_slider .slider_text {
+		margin-top: 110px !important;
 	}
 	.banner_area .single_slider {
 		height: auto !important;
