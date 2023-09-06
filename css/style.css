@@ -676,9 +676,13 @@ h3 {
 	.submenu_heading {
 		padding: 0px 0px !important;
 	}
-	.slicknav_nav li{
+	.slicknav_nav li {
 		padding: 6px 0px !important;
 		margin: 0px 0px;
+	}
+	img.platform-image {
+		padding-top: 0px !important;
+		padding-bottom: 30px;
 	}
 }
 
@@ -775,6 +779,10 @@ h3 {
 	.mobile_accordion .btn {
 		margin: 5px 0px !important;
 		padding: 0px !important;
+	}
+	img.platform-image {
+		padding-top: 0px !important;
+		padding-bottom: 30px;
 	}
 }
 
@@ -2553,9 +2561,9 @@ div#customNav {
 		opacity: 1;
 	}
 	.slicknav_nav li {
-    padding: 6px 0px !important;
-    margin: 0px 0px;
-}
+		padding: 6px 0px !important;
+		margin: 0px 0px;
+	}
 }
 
 /* line 29, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_accordion_area.scss */
