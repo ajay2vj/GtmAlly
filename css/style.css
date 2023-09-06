@@ -647,6 +647,35 @@ h3 {
 		position: relative;
 		z-index: 2;
 	}
+	.about_banner_content {
+		margin-top: 50px !important;
+	}
+	.breadcrumb {
+		margin-bottom: 30px !important;
+	}
+	.slick-container .client-slider .slide img {
+		width: 110 !important;
+		height: 48px;
+		right: 0px !important;
+	}
+	.get_in_touch {
+		padding-top: 10% !important;
+	}
+	.solution_banner_content {
+		margin-top: 40px !important;
+	}
+	img.product_demand {
+		margin-top: 0px !important;
+	}
+	img.product_research {
+		margin-top: 0px !important;
+	}
+	img.rfp-image {
+		padding-top: 0px !important;
+	}
+	.submenu_heading {
+		padding: 0px 0px !important;
+	}
 }
 
 /* line 13, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_slick-nav.scss */
@@ -2476,6 +2505,48 @@ div#customNav {
 		margin-top: 0px !important;
 		display: flex;
 		justify-content: center;
+	}
+	.about_banner_content {
+		margin-top: 50px !important;
+	}
+	.breadcrumb {
+		margin-bottom: 30px !important;
+	}
+	.about_banner img {
+		width: 100% !important;
+		height: auto !important;
+	}
+	.get_in_touch {
+		padding-top: 10% !important;
+	}
+	.solution_banner_content {
+		margin-top: 40px !important;
+	}
+	img.product_demand {
+		margin-top: 0px !important;
+	}
+	img.product_research {
+		margin-top: 0px !important;
+	}
+	img.rfp-image {
+		padding-top: 0px !important;
+	}
+	p.products_para {
+		padding: 0px !important;
+	}
+	.box-benefits {
+		height: auto !important;
+		margin: 10px 0px;
+	}
+	.contact_form_quote .slider_text p {
+		padding-bottom: 30px;
+	}
+	.about_title p {
+		padding: 0px !important;
+		font: normal normal 600 24px/41px Poppins !important;
+		letter-spacing: 0px;
+		color: #111111;
+		opacity: 1;
 	}
 }
 
