@@ -450,7 +450,13 @@ pre code {
 		max-width: 720px;
 	}
 }
-
+@media (min-width: 992px) and (max-width: 1199px) {
+	.sticky_container {
+		max-width: 1300px !important;
+		padding: 0px 30px;
+		height: 100vh;
+	}
+}
 @media (min-width: 992px) {
 	.container {
 		max-width: 960px;

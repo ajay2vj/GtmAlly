@@ -121,6 +121,7 @@
 			$(this).closest(".slicknav_menu").toggleClass("bg_color");
 			$("body").toggleClass("body_class");
 			$(".banner_area").toggleClass("banner_opacity");
+			$(".nav_container").toggleClass("sticky_container");
 		});
 		// review-active
 		$(".testmonial_active").owlCarousel({
